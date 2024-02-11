@@ -1,0 +1,2729 @@
+<?xml version="1.0"?>
+<control>
+	<opcode name="default_path" value="Samples/" />
+	<opcode name="label_cc7" value="Vol" />
+	<opcode name="label_cc10" value="Pan" />
+	<opcode name="label_cc64" value="Sus.Pedal" />
+	<opcode name="label_cc70" value="Resonance" />
+	<opcode name="label_cc72" value="Release" />
+	<opcode name="label_cc99" value="Veltrack" />
+	<opcode name="set_cc7" value="100" />
+	<opcode name="set_hdcc10" value="0.5" />
+	<opcode name="set_hdcc70" value="0.5" />
+	<opcode name="set_hdcc72" value="0.35" />
+	<opcode name="set_hdcc99" value="1" />
+</control>
+<global>
+	<opcode name="amplitude_oncc7" value="100" />
+	<opcode name="amplitude_curvecc7" value="4" />
+	<opcode name="pan_oncc10" value="100" />
+	<opcode name="pan_curvecc10" value="1" />
+	<opcode name="ampeg_attack" value="0.0005" />
+	<opcode name="ampeg_hold" value="8" />
+	<opcode name="ampeg_hold_oncc133" value="-6" />
+	<opcode name="ampeg_decay" value="80" />
+	<opcode name="ampeg_decay_oncc133" value="-60" />
+	<opcode name="ampeg_sustain" value="0" />
+	<opcode name="ampeg_release_oncc72" value="2" />
+	<opcode name="amp_veltrack_oncc99" value="-100" />
+	<opcode name="amp_veltrack_curvecc99" value="2" />
+	<opcode name="note_polyphony" value="1" />
+	<opcode name="off_time" value="0.5" />
+</global>
+<group>
+	<opcode name="group" value="1" />
+	<opcode name="locc64" value="65" />
+	<opcode name="locc70" value="1" />
+	<opcode name="amplitude_oncc70" value="200" />
+</group>
+<region>
+	<opcode name="lokey" value="021" />
+	<opcode name="hikey" value="022" />
+	<opcode name="pitch_keycenter" value="033" />
+	<opcode name="sample" value="PP A0.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="023" />
+	<opcode name="hikey" value="023" />
+	<opcode name="pitch_keycenter" value="035" />
+	<opcode name="sample" value="PP B0.ogg" />
+	<opcode name="offset" value="618" />
+</region>
+<region>
+	<opcode name="lokey" value="024" />
+	<opcode name="hikey" value="025" />
+	<opcode name="pitch_keycenter" value="037" />
+	<opcode name="sample" value="PP C#1.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="026" />
+	<opcode name="hikey" value="027" />
+	<opcode name="pitch_keycenter" value="038" />
+	<opcode name="sample" value="PP D1.ogg" />
+	<opcode name="offset" value="1046" />
+</region>
+<region>
+	<opcode name="lokey" value="028" />
+	<opcode name="hikey" value="028" />
+	<opcode name="pitch_keycenter" value="040" />
+	<opcode name="sample" value="PP E1.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="029" />
+	<opcode name="hikey" value="029" />
+	<opcode name="pitch_keycenter" value="041" />
+	<opcode name="sample" value="PP F1.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="030" />
+	<opcode name="hikey" value="032" />
+	<opcode name="pitch_keycenter" value="043" />
+	<opcode name="sample" value="PP G1.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="033" />
+	<opcode name="hikey" value="034" />
+	<opcode name="pitch_keycenter" value="045" />
+	<opcode name="sample" value="PP A1.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="035" />
+	<opcode name="hikey" value="035" />
+	<opcode name="pitch_keycenter" value="047" />
+	<opcode name="sample" value="PP B1.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="036" />
+	<opcode name="hikey" value="037" />
+	<opcode name="pitch_keycenter" value="048" />
+	<opcode name="sample" value="PP C2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="038" />
+	<opcode name="hikey" value="038" />
+	<opcode name="pitch_keycenter" value="050" />
+	<opcode name="sample" value="PP D2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="039" />
+	<opcode name="hikey" value="040" />
+	<opcode name="pitch_keycenter" value="052" />
+	<opcode name="sample" value="PP E2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="041" />
+	<opcode name="hikey" value="042" />
+	<opcode name="pitch_keycenter" value="053" />
+	<opcode name="sample" value="PP F2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="043" />
+	<opcode name="hikey" value="043" />
+	<opcode name="pitch_keycenter" value="055" />
+	<opcode name="sample" value="PP G2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="044" />
+	<opcode name="hikey" value="044" />
+	<opcode name="pitch_keycenter" value="056" />
+	<opcode name="sample" value="PP G#2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="045" />
+	<opcode name="hikey" value="045" />
+	<opcode name="pitch_keycenter" value="057" />
+	<opcode name="sample" value="PP A2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="046" />
+	<opcode name="hikey" value="046" />
+	<opcode name="pitch_keycenter" value="058" />
+	<opcode name="sample" value="PP A#2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="047" />
+	<opcode name="hikey" value="047" />
+	<opcode name="pitch_keycenter" value="059" />
+	<opcode name="sample" value="PP B2.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="048" />
+	<opcode name="hikey" value="049" />
+	<opcode name="pitch_keycenter" value="060" />
+	<opcode name="sample" value="PP C3.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="050" />
+	<opcode name="hikey" value="051" />
+	<opcode name="pitch_keycenter" value="062" />
+	<opcode name="sample" value="PP D3.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="052" />
+	<opcode name="hikey" value="052" />
+	<opcode name="pitch_keycenter" value="064" />
+	<opcode name="sample" value="PP E3.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="053" />
+	<opcode name="hikey" value="054" />
+	<opcode name="pitch_keycenter" value="065" />
+	<opcode name="sample" value="PP F3.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="055" />
+	<opcode name="hikey" value="056" />
+	<opcode name="pitch_keycenter" value="067" />
+	<opcode name="sample" value="PP G3.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="057" />
+	<opcode name="hikey" value="057" />
+	<opcode name="pitch_keycenter" value="069" />
+	<opcode name="sample" value="PP A3.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="058" />
+	<opcode name="hikey" value="059" />
+	<opcode name="pitch_keycenter" value="071" />
+	<opcode name="sample" value="PP B3.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="060" />
+	<opcode name="hikey" value="061" />
+	<opcode name="pitch_keycenter" value="072" />
+	<opcode name="sample" value="PP C4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="062" />
+	<opcode name="hikey" value="063" />
+	<opcode name="pitch_keycenter" value="074" />
+	<opcode name="sample" value="PP D4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="064" />
+	<opcode name="hikey" value="064" />
+	<opcode name="pitch_keycenter" value="076" />
+	<opcode name="sample" value="PP E4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="065" />
+	<opcode name="hikey" value="066" />
+	<opcode name="pitch_keycenter" value="077" />
+	<opcode name="sample" value="PP F4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="067" />
+	<opcode name="hikey" value="067" />
+	<opcode name="pitch_keycenter" value="079" />
+	<opcode name="sample" value="PP G4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="068" />
+	<opcode name="hikey" value="068" />
+	<opcode name="pitch_keycenter" value="080" />
+	<opcode name="sample" value="PP G#4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="069" />
+	<opcode name="hikey" value="069" />
+	<opcode name="pitch_keycenter" value="081" />
+	<opcode name="sample" value="PP A4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="070" />
+	<opcode name="hikey" value="070" />
+	<opcode name="pitch_keycenter" value="082" />
+	<opcode name="sample" value="PP A#4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="071" />
+	<opcode name="hikey" value="071" />
+	<opcode name="pitch_keycenter" value="083" />
+	<opcode name="sample" value="PP B4.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="072" />
+	<opcode name="hikey" value="073" />
+	<opcode name="pitch_keycenter" value="085" />
+	<opcode name="sample" value="PP C#5.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="074" />
+	<opcode name="hikey" value="074" />
+	<opcode name="pitch_keycenter" value="086" />
+	<opcode name="sample" value="PP D5.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="075" />
+	<opcode name="hikey" value="075" />
+	<opcode name="pitch_keycenter" value="087" />
+	<opcode name="sample" value="PP D#5.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="076" />
+	<opcode name="hikey" value="077" />
+	<opcode name="pitch_keycenter" value="089" />
+	<opcode name="sample" value="PP F5.ogg" />
+</region>
+<region>
+	<opcode name="lokey" value="078" />
+	<opcode name="hikey" value="078" />
+	<opcode name="pitch_keycenter" value="090" />
+	<opcode name="sample" value="PP F#5.ogg" />
+	<opcode name="pan" value="-40" />
+</region>
+<region>
+	<opcode name="lokey" value="079" />
+	<opcode name="hikey" value="079" />
+	<opcode name="pitch_keycenter" value="091" />
+	<opcode name="sample" value="PP G5.ogg" />
+	<opcode name="pan" value="-30" />
+	<opcode name="offset" value="135" />
+</region>
+<region>
+	<opcode name="lokey" value="080" />
+	<opcode name="hikey" value="080" />
+	<opcode name="pitch_keycenter" value="092" />
+	<opcode name="sample" value="PP G#5.ogg" />
+	<opcode name="pan" value="-30" />
+</region>
+<region>
+	<opcode name="lokey" value="081" />
+	<opcode name="hikey" value="081" />
+	<opcode name="pitch_keycenter" value="093" />
+	<opcode name="sample" value="PP A5.ogg" />
+	<opcode name="pan" value="-45" />
+</region>
+<region>
+	<opcode name="lokey" value="082" />
+	<opcode name="hikey" value="082" />
+	<opcode name="pitch_keycenter" value="094" />
+	<opcode name="sample" value="PP A#5.ogg" />
+	<opcode name="pan" value="-45" />
+</region>
+<region>
+	<opcode name="lokey" value="083" />
+	<opcode name="hikey" value="083" />
+	<opcode name="pitch_keycenter" value="095" />
+	<opcode name="sample" value="PP B5.ogg" />
+	<opcode name="offset" value="324" />
+</region>
+<region>
+	<opcode name="lokey" value="084" />
+	<opcode name="hikey" value="084" />
+	<opcode name="pitch_keycenter" value="096" />
+	<opcode name="sample" value="PP C6.ogg" />
+	<opcode name="offset" value="57" />
+	<opcode name="tune" value="-5" />
+</region>
+<region>
+	<opcode name="lokey" value="085" />
+	<opcode name="hikey" value="085" />
+	<opcode name="pitch_keycenter" value="097" />
+	<opcode name="sample" value="PP C#6.ogg" />
+	<opcode name="offset" value="265" />
+	<opcode name="tune" value="-5" />
+</region>
+<region>
+	<opcode name="lokey" value="086" />
+	<opcode name="hikey" value="086" />
+	<opcode name="pitch_keycenter" value="098" />
+	<opcode name="sample" value="PP D6.ogg" />
+	<opcode name="tune" value="-10" />
+</region>
+<region>
+	<opcode name="lokey" value="087" />
+	<opcode name="hikey" value="087" />
+	<opcode name="pitch_keycenter" value="099" />
+	<opcode name="sample" value="PP D#6.ogg" />
+	<opcode name="tune" value="-5" />
+</region>
+<region>
+	<opcode name="lokey" value="088" />
+	<opcode name="hikey" value="088" />
+	<opcode name="pitch_keycenter" value="100" />
+	<opcode name="sample" value="PP E6.ogg" />
+	<opcode name="tune" value="-10" />
+</region>
+<region>
+	<opcode name="lokey" value="089" />
+	<opcode name="hikey" value="089" />
+	<opcode name="pitch_keycenter" value="101" />
+	<opcode name="sample" value="PP F6.ogg" />
+	<opcode name="tune" value="-10" />
+</region>
+<region>
+	<opcode name="lokey" value="090" />
+	<opcode name="hikey" value="090" />
+	<opcode name="pitch_keycenter" value="102" />
+	<opcode name="sample" value="PP F#6.ogg" />
+	<opcode name="tune" value="-20" />
+</region>
+<region>
+	<opcode name="lokey" value="091" />
+	<opcode name="hikey" value="091" />
+	<opcode name="pitch_keycenter" value="103" />
+	<opcode name="sample" value="PP G6.ogg" />
+	<opcode name="tune" value="-20" />
+</region>
+<region>
+	<opcode name="lokey" value="092" />
+	<opcode name="hikey" value="092" />
+	<opcode name="pitch_keycenter" value="104" />
+	<opcode name="sample" value="PP G#6.ogg" />
+	<opcode name="tune" value="-25" />
+</region>
+<region>
+	<opcode name="lokey" value="093" />
+	<opcode name="hikey" value="093" />
+	<opcode name="pitch_keycenter" value="105" />
+	<opcode name="sample" value="PP A6.ogg" />
+	<opcode name="offset" value="146" />
+	<opcode name="tune" value="-20" />
+</region>
+<region>
+	<opcode name="lokey" value="094" />
+	<opcode name="hikey" value="094" />
+	<opcode name="pitch_keycenter" value="106" />
+	<opcode name="sample" value="PP A#6.ogg" />
+	<opcode name="tune" value="-25" />
+</region>
+<region>
+	<opcode name="lokey" value="095" />
+	<opcode name="hikey" value="095" />
+	<opcode name="pitch_keycenter" value="107" />
+	<opcode name="sample" value="PP B6.ogg" />
+	<opcode name="tune" value="-25" />
+</region>
+<region>
+	<opcode name="lokey" value="096" />
+	<opcode name="hikey" value="096" />
+	<opcode name="pitch_keycenter" value="108" />
+	<opcode name="sample" value="PP C7.ogg" />
+	<opcode name="tune" value="-20" />
+</region>
+<group>
+	<opcode name="lovel" value="1" />
+	<opcode name="hivel" value="40" />
+	<opcode name="cutoff" value="1000" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="PPP" />
+</group>
+<region>
+	<opcode name="region_label" value="01" />
+	<opcode name="lokey" value="021" />
+	<opcode name="hikey" value="024" />
+	<opcode name="pitch_keycenter" value="023" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="PP B-1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="02" />
+	<opcode name="lokey" value="025" />
+	<opcode name="hikey" value="027" />
+	<opcode name="pitch_keycenter" value="027" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="PP D#0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="03" />
+	<opcode name="lokey" value="028" />
+	<opcode name="hikey" value="030" />
+	<opcode name="pitch_keycenter" value="029" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="PP F0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="04" />
+	<opcode name="lokey" value="031" />
+	<opcode name="hikey" value="032" />
+	<opcode name="pitch_keycenter" value="031" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="PP G0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="05" />
+	<opcode name="lokey" value="033" />
+	<opcode name="hikey" value="034" />
+	<opcode name="pitch_keycenter" value="033" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="PP A0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="06" />
+	<opcode name="lokey" value="035" />
+	<opcode name="hikey" value="035" />
+	<opcode name="pitch_keycenter" value="035" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="PP B0.ogg" />
+	<opcode name="offset" value="618" />
+</region>
+<region>
+	<opcode name="region_label" value="07" />
+	<opcode name="lokey" value="036" />
+	<opcode name="hikey" value="037" />
+	<opcode name="pitch_keycenter" value="037" />
+	<opcode name="sample" value="PP C#1.ogg" />
+	<opcode name="volume" value="1" />
+</region>
+<region>
+	<opcode name="region_label" value="08" />
+	<opcode name="lokey" value="038" />
+	<opcode name="hikey" value="039" />
+	<opcode name="pitch_keycenter" value="038" />
+	<opcode name="sample" value="PP D1.ogg" />
+	<opcode name="offset" value="1046" />
+</region>
+<region>
+	<opcode name="region_label" value="09" />
+	<opcode name="lokey" value="040" />
+	<opcode name="hikey" value="040" />
+	<opcode name="pitch_keycenter" value="040" />
+	<opcode name="sample" value="PP E1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="10" />
+	<opcode name="lokey" value="041" />
+	<opcode name="hikey" value="041" />
+	<opcode name="pitch_keycenter" value="041" />
+	<opcode name="sample" value="PP F1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="11" />
+	<opcode name="lokey" value="042" />
+	<opcode name="hikey" value="044" />
+	<opcode name="pitch_keycenter" value="043" />
+	<opcode name="sample" value="PP G1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="12" />
+	<opcode name="lokey" value="045" />
+	<opcode name="hikey" value="046" />
+	<opcode name="pitch_keycenter" value="045" />
+	<opcode name="sample" value="PP A1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="13" />
+	<opcode name="lokey" value="047" />
+	<opcode name="hikey" value="047" />
+	<opcode name="pitch_keycenter" value="047" />
+	<opcode name="sample" value="PP B1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="14" />
+	<opcode name="lokey" value="048" />
+	<opcode name="hikey" value="049" />
+	<opcode name="pitch_keycenter" value="048" />
+	<opcode name="sample" value="PP C2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="15" />
+	<opcode name="lokey" value="050" />
+	<opcode name="hikey" value="050" />
+	<opcode name="pitch_keycenter" value="050" />
+	<opcode name="sample" value="PP D2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="16" />
+	<opcode name="lokey" value="051" />
+	<opcode name="hikey" value="052" />
+	<opcode name="pitch_keycenter" value="052" />
+	<opcode name="sample" value="PP E2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="17" />
+	<opcode name="lokey" value="053" />
+	<opcode name="hikey" value="054" />
+	<opcode name="pitch_keycenter" value="053" />
+	<opcode name="sample" value="PP F2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="18" />
+	<opcode name="lokey" value="055" />
+	<opcode name="hikey" value="055" />
+	<opcode name="pitch_keycenter" value="055" />
+	<opcode name="sample" value="PP G2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="19" />
+	<opcode name="lokey" value="056" />
+	<opcode name="hikey" value="056" />
+	<opcode name="pitch_keycenter" value="056" />
+	<opcode name="sample" value="PP G#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="20" />
+	<opcode name="lokey" value="057" />
+	<opcode name="hikey" value="057" />
+	<opcode name="pitch_keycenter" value="057" />
+	<opcode name="sample" value="PP A2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="21" />
+	<opcode name="lokey" value="058" />
+	<opcode name="hikey" value="058" />
+	<opcode name="pitch_keycenter" value="058" />
+	<opcode name="sample" value="PP A#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="22" />
+	<opcode name="lokey" value="059" />
+	<opcode name="hikey" value="059" />
+	<opcode name="pitch_keycenter" value="059" />
+	<opcode name="sample" value="PP B2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="23" />
+	<opcode name="lokey" value="060" />
+	<opcode name="hikey" value="061" />
+	<opcode name="pitch_keycenter" value="060" />
+	<opcode name="sample" value="PP C3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="24" />
+	<opcode name="lokey" value="062" />
+	<opcode name="hikey" value="063" />
+	<opcode name="pitch_keycenter" value="062" />
+	<opcode name="sample" value="PP D3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="25" />
+	<opcode name="lokey" value="064" />
+	<opcode name="hikey" value="064" />
+	<opcode name="pitch_keycenter" value="064" />
+	<opcode name="sample" value="PP E3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="26" />
+	<opcode name="lokey" value="065" />
+	<opcode name="hikey" value="066" />
+	<opcode name="pitch_keycenter" value="065" />
+	<opcode name="sample" value="PP F3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="27" />
+	<opcode name="lokey" value="067" />
+	<opcode name="hikey" value="068" />
+	<opcode name="pitch_keycenter" value="067" />
+	<opcode name="sample" value="PP G3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="28" />
+	<opcode name="lokey" value="069" />
+	<opcode name="hikey" value="069" />
+	<opcode name="pitch_keycenter" value="069" />
+	<opcode name="sample" value="PP A3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="29" />
+	<opcode name="lokey" value="070" />
+	<opcode name="hikey" value="071" />
+	<opcode name="pitch_keycenter" value="071" />
+	<opcode name="sample" value="PP B3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="30" />
+	<opcode name="lokey" value="072" />
+	<opcode name="hikey" value="073" />
+	<opcode name="pitch_keycenter" value="072" />
+	<opcode name="sample" value="PP C4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="31" />
+	<opcode name="lokey" value="074" />
+	<opcode name="hikey" value="075" />
+	<opcode name="pitch_keycenter" value="074" />
+	<opcode name="sample" value="PP D4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="32" />
+	<opcode name="lokey" value="076" />
+	<opcode name="hikey" value="076" />
+	<opcode name="pitch_keycenter" value="076" />
+	<opcode name="sample" value="PP E4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="33" />
+	<opcode name="lokey" value="077" />
+	<opcode name="hikey" value="078" />
+	<opcode name="pitch_keycenter" value="077" />
+	<opcode name="sample" value="PP F4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="34" />
+	<opcode name="lokey" value="079" />
+	<opcode name="hikey" value="079" />
+	<opcode name="pitch_keycenter" value="079" />
+	<opcode name="sample" value="PP G4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="35" />
+	<opcode name="lokey" value="080" />
+	<opcode name="hikey" value="080" />
+	<opcode name="pitch_keycenter" value="080" />
+	<opcode name="sample" value="PP G#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="36" />
+	<opcode name="lokey" value="081" />
+	<opcode name="hikey" value="081" />
+	<opcode name="pitch_keycenter" value="081" />
+	<opcode name="sample" value="PP A4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="37" />
+	<opcode name="lokey" value="082" />
+	<opcode name="hikey" value="082" />
+	<opcode name="pitch_keycenter" value="082" />
+	<opcode name="sample" value="PP A#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="38" />
+	<opcode name="lokey" value="083" />
+	<opcode name="hikey" value="083" />
+	<opcode name="pitch_keycenter" value="083" />
+	<opcode name="sample" value="PP B4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="39" />
+	<opcode name="lokey" value="084" />
+	<opcode name="hikey" value="085" />
+	<opcode name="pitch_keycenter" value="085" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="PP C#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="40" />
+	<opcode name="lokey" value="086" />
+	<opcode name="hikey" value="086" />
+	<opcode name="pitch_keycenter" value="086" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="PP D5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="41" />
+	<opcode name="lokey" value="087" />
+	<opcode name="hikey" value="087" />
+	<opcode name="pitch_keycenter" value="087" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="PP D#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="42" />
+	<opcode name="lokey" value="088" />
+	<opcode name="hikey" value="089" />
+	<opcode name="pitch_keycenter" value="089" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="PP F5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="43" />
+	<opcode name="lokey" value="090" />
+	<opcode name="hikey" value="090" />
+	<opcode name="pitch_keycenter" value="090" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="PP F#5.ogg" />
+	<opcode name="pan" value="-40" />
+</region>
+<region>
+	<opcode name="region_label" value="44" />
+	<opcode name="lokey" value="091" />
+	<opcode name="hikey" value="091" />
+	<opcode name="pitch_keycenter" value="091" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G5.ogg" />
+	<opcode name="pan" value="-30" />
+	<opcode name="offset" value="135" />
+</region>
+<region>
+	<opcode name="region_label" value="45" />
+	<opcode name="lokey" value="092" />
+	<opcode name="hikey" value="092" />
+	<opcode name="pitch_keycenter" value="092" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G#5.ogg" />
+	<opcode name="pan" value="-30" />
+</region>
+<region>
+	<opcode name="region_label" value="46" />
+	<opcode name="lokey" value="093" />
+	<opcode name="hikey" value="093" />
+	<opcode name="pitch_keycenter" value="093" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A5.ogg" />
+	<opcode name="pan" value="-45" />
+</region>
+<region>
+	<opcode name="region_label" value="47" />
+	<opcode name="lokey" value="094" />
+	<opcode name="hikey" value="094" />
+	<opcode name="pitch_keycenter" value="094" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A#5.ogg" />
+	<opcode name="pan" value="-45" />
+</region>
+<region>
+	<opcode name="region_label" value="48" />
+	<opcode name="lokey" value="095" />
+	<opcode name="hikey" value="095" />
+	<opcode name="pitch_keycenter" value="095" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP B5.ogg" />
+	<opcode name="offset" value="324" />
+</region>
+<region>
+	<opcode name="region_label" value="49" />
+	<opcode name="lokey" value="096" />
+	<opcode name="hikey" value="096" />
+	<opcode name="pitch_keycenter" value="096" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP C6.ogg" />
+	<opcode name="offset" value="57" />
+</region>
+<region>
+	<opcode name="region_label" value="50" />
+	<opcode name="lokey" value="097" />
+	<opcode name="hikey" value="097" />
+	<opcode name="pitch_keycenter" value="097" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP C#6.ogg" />
+	<opcode name="offset" value="265" />
+</region>
+<region>
+	<opcode name="region_label" value="51" />
+	<opcode name="lokey" value="098" />
+	<opcode name="hikey" value="098" />
+	<opcode name="pitch_keycenter" value="098" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP D6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="52" />
+	<opcode name="lokey" value="099" />
+	<opcode name="hikey" value="099" />
+	<opcode name="pitch_keycenter" value="099" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP D#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="53" />
+	<opcode name="lokey" value="100" />
+	<opcode name="hikey" value="100" />
+	<opcode name="pitch_keycenter" value="100" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP E6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="54" />
+	<opcode name="lokey" value="101" />
+	<opcode name="hikey" value="101" />
+	<opcode name="pitch_keycenter" value="101" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP F6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="55" />
+	<opcode name="lokey" value="102" />
+	<opcode name="hikey" value="102" />
+	<opcode name="pitch_keycenter" value="102" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP F#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="56" />
+	<opcode name="lokey" value="103" />
+	<opcode name="hikey" value="103" />
+	<opcode name="pitch_keycenter" value="103" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="57" />
+	<opcode name="lokey" value="104" />
+	<opcode name="hikey" value="104" />
+	<opcode name="pitch_keycenter" value="104" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="58" />
+	<opcode name="lokey" value="105" />
+	<opcode name="hikey" value="105" />
+	<opcode name="pitch_keycenter" value="105" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A6.ogg" />
+	<opcode name="offset" value="146" />
+</region>
+<region>
+	<opcode name="region_label" value="59" />
+	<opcode name="lokey" value="106" />
+	<opcode name="hikey" value="106" />
+	<opcode name="pitch_keycenter" value="106" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="60" />
+	<opcode name="lokey" value="107" />
+	<opcode name="hikey" value="107" />
+	<opcode name="pitch_keycenter" value="107" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP B6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="61" />
+	<opcode name="lokey" value="108" />
+	<opcode name="hikey" value="108" />
+	<opcode name="pitch_keycenter" value="108" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP C7.ogg" />
+</region>
+<group>
+	<opcode name="lovel" value="41" />
+	<opcode name="hivel" value="67" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="PP" />
+</group>
+<region>
+	<opcode name="region_label" value="01" />
+	<opcode name="lokey" value="021" />
+	<opcode name="hikey" value="024" />
+	<opcode name="pitch_keycenter" value="023" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="PP B-1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="02" />
+	<opcode name="lokey" value="025" />
+	<opcode name="hikey" value="027" />
+	<opcode name="pitch_keycenter" value="027" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="PP D#0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="03" />
+	<opcode name="lokey" value="028" />
+	<opcode name="hikey" value="030" />
+	<opcode name="pitch_keycenter" value="029" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="PP F0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="04" />
+	<opcode name="lokey" value="031" />
+	<opcode name="hikey" value="032" />
+	<opcode name="pitch_keycenter" value="031" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="PP G0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="05" />
+	<opcode name="lokey" value="033" />
+	<opcode name="hikey" value="034" />
+	<opcode name="pitch_keycenter" value="033" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="PP A0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="06" />
+	<opcode name="lokey" value="035" />
+	<opcode name="hikey" value="035" />
+	<opcode name="pitch_keycenter" value="035" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="PP B0.ogg" />
+	<opcode name="offset" value="618" />
+</region>
+<region>
+	<opcode name="region_label" value="07" />
+	<opcode name="lokey" value="036" />
+	<opcode name="hikey" value="037" />
+	<opcode name="pitch_keycenter" value="037" />
+	<opcode name="sample" value="PP C#1.ogg" />
+	<opcode name="volume" value="1" />
+</region>
+<region>
+	<opcode name="region_label" value="08" />
+	<opcode name="lokey" value="038" />
+	<opcode name="hikey" value="039" />
+	<opcode name="pitch_keycenter" value="038" />
+	<opcode name="sample" value="PP D1.ogg" />
+	<opcode name="offset" value="1046" />
+</region>
+<region>
+	<opcode name="region_label" value="09" />
+	<opcode name="lokey" value="040" />
+	<opcode name="hikey" value="040" />
+	<opcode name="pitch_keycenter" value="040" />
+	<opcode name="sample" value="PP E1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="10" />
+	<opcode name="lokey" value="041" />
+	<opcode name="hikey" value="041" />
+	<opcode name="pitch_keycenter" value="041" />
+	<opcode name="sample" value="PP F1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="11" />
+	<opcode name="lokey" value="042" />
+	<opcode name="hikey" value="044" />
+	<opcode name="pitch_keycenter" value="043" />
+	<opcode name="sample" value="PP G1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="12" />
+	<opcode name="lokey" value="045" />
+	<opcode name="hikey" value="046" />
+	<opcode name="pitch_keycenter" value="045" />
+	<opcode name="sample" value="PP A1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="13" />
+	<opcode name="lokey" value="047" />
+	<opcode name="hikey" value="047" />
+	<opcode name="pitch_keycenter" value="047" />
+	<opcode name="sample" value="PP B1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="14" />
+	<opcode name="lokey" value="048" />
+	<opcode name="hikey" value="049" />
+	<opcode name="pitch_keycenter" value="048" />
+	<opcode name="sample" value="PP C2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="15" />
+	<opcode name="lokey" value="050" />
+	<opcode name="hikey" value="050" />
+	<opcode name="pitch_keycenter" value="050" />
+	<opcode name="sample" value="PP D2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="16" />
+	<opcode name="lokey" value="051" />
+	<opcode name="hikey" value="052" />
+	<opcode name="pitch_keycenter" value="052" />
+	<opcode name="sample" value="PP E2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="17" />
+	<opcode name="lokey" value="053" />
+	<opcode name="hikey" value="054" />
+	<opcode name="pitch_keycenter" value="053" />
+	<opcode name="sample" value="PP F2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="18" />
+	<opcode name="lokey" value="055" />
+	<opcode name="hikey" value="055" />
+	<opcode name="pitch_keycenter" value="055" />
+	<opcode name="sample" value="PP G2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="19" />
+	<opcode name="lokey" value="056" />
+	<opcode name="hikey" value="056" />
+	<opcode name="pitch_keycenter" value="056" />
+	<opcode name="sample" value="PP G#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="20" />
+	<opcode name="lokey" value="057" />
+	<opcode name="hikey" value="057" />
+	<opcode name="pitch_keycenter" value="057" />
+	<opcode name="sample" value="PP A2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="21" />
+	<opcode name="lokey" value="058" />
+	<opcode name="hikey" value="058" />
+	<opcode name="pitch_keycenter" value="058" />
+	<opcode name="sample" value="PP A#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="22" />
+	<opcode name="lokey" value="059" />
+	<opcode name="hikey" value="059" />
+	<opcode name="pitch_keycenter" value="059" />
+	<opcode name="sample" value="PP B2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="23" />
+	<opcode name="lokey" value="060" />
+	<opcode name="hikey" value="061" />
+	<opcode name="pitch_keycenter" value="060" />
+	<opcode name="sample" value="PP C3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="24" />
+	<opcode name="lokey" value="062" />
+	<opcode name="hikey" value="063" />
+	<opcode name="pitch_keycenter" value="062" />
+	<opcode name="sample" value="PP D3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="25" />
+	<opcode name="lokey" value="064" />
+	<opcode name="hikey" value="064" />
+	<opcode name="pitch_keycenter" value="064" />
+	<opcode name="sample" value="PP E3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="26" />
+	<opcode name="lokey" value="065" />
+	<opcode name="hikey" value="066" />
+	<opcode name="pitch_keycenter" value="065" />
+	<opcode name="sample" value="PP F3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="27" />
+	<opcode name="lokey" value="067" />
+	<opcode name="hikey" value="068" />
+	<opcode name="pitch_keycenter" value="067" />
+	<opcode name="sample" value="PP G3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="28" />
+	<opcode name="lokey" value="069" />
+	<opcode name="hikey" value="069" />
+	<opcode name="pitch_keycenter" value="069" />
+	<opcode name="sample" value="PP A3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="29" />
+	<opcode name="lokey" value="070" />
+	<opcode name="hikey" value="071" />
+	<opcode name="pitch_keycenter" value="071" />
+	<opcode name="sample" value="PP B3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="30" />
+	<opcode name="lokey" value="072" />
+	<opcode name="hikey" value="073" />
+	<opcode name="pitch_keycenter" value="072" />
+	<opcode name="sample" value="PP C4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="31" />
+	<opcode name="lokey" value="074" />
+	<opcode name="hikey" value="075" />
+	<opcode name="pitch_keycenter" value="074" />
+	<opcode name="sample" value="PP D4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="32" />
+	<opcode name="lokey" value="076" />
+	<opcode name="hikey" value="076" />
+	<opcode name="pitch_keycenter" value="076" />
+	<opcode name="sample" value="PP E4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="33" />
+	<opcode name="lokey" value="077" />
+	<opcode name="hikey" value="078" />
+	<opcode name="pitch_keycenter" value="077" />
+	<opcode name="sample" value="PP F4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="34" />
+	<opcode name="lokey" value="079" />
+	<opcode name="hikey" value="079" />
+	<opcode name="pitch_keycenter" value="079" />
+	<opcode name="sample" value="PP G4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="35" />
+	<opcode name="lokey" value="080" />
+	<opcode name="hikey" value="080" />
+	<opcode name="pitch_keycenter" value="080" />
+	<opcode name="sample" value="PP G#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="36" />
+	<opcode name="lokey" value="081" />
+	<opcode name="hikey" value="081" />
+	<opcode name="pitch_keycenter" value="081" />
+	<opcode name="sample" value="PP A4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="37" />
+	<opcode name="lokey" value="082" />
+	<opcode name="hikey" value="082" />
+	<opcode name="pitch_keycenter" value="082" />
+	<opcode name="sample" value="PP A#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="38" />
+	<opcode name="lokey" value="083" />
+	<opcode name="hikey" value="083" />
+	<opcode name="pitch_keycenter" value="083" />
+	<opcode name="sample" value="PP B4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="39" />
+	<opcode name="lokey" value="084" />
+	<opcode name="hikey" value="085" />
+	<opcode name="pitch_keycenter" value="085" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="PP C#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="40" />
+	<opcode name="lokey" value="086" />
+	<opcode name="hikey" value="086" />
+	<opcode name="pitch_keycenter" value="086" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="PP D5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="41" />
+	<opcode name="lokey" value="087" />
+	<opcode name="hikey" value="087" />
+	<opcode name="pitch_keycenter" value="087" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="PP D#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="42" />
+	<opcode name="lokey" value="088" />
+	<opcode name="hikey" value="089" />
+	<opcode name="pitch_keycenter" value="089" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="PP F5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="43" />
+	<opcode name="lokey" value="090" />
+	<opcode name="hikey" value="090" />
+	<opcode name="pitch_keycenter" value="090" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="PP F#5.ogg" />
+	<opcode name="pan" value="-40" />
+</region>
+<region>
+	<opcode name="region_label" value="44" />
+	<opcode name="lokey" value="091" />
+	<opcode name="hikey" value="091" />
+	<opcode name="pitch_keycenter" value="091" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G5.ogg" />
+	<opcode name="pan" value="-30" />
+	<opcode name="offset" value="135" />
+</region>
+<region>
+	<opcode name="region_label" value="45" />
+	<opcode name="lokey" value="092" />
+	<opcode name="hikey" value="092" />
+	<opcode name="pitch_keycenter" value="092" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G#5.ogg" />
+	<opcode name="pan" value="-30" />
+</region>
+<region>
+	<opcode name="region_label" value="46" />
+	<opcode name="lokey" value="093" />
+	<opcode name="hikey" value="093" />
+	<opcode name="pitch_keycenter" value="093" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A5.ogg" />
+	<opcode name="pan" value="-45" />
+</region>
+<region>
+	<opcode name="region_label" value="47" />
+	<opcode name="lokey" value="094" />
+	<opcode name="hikey" value="094" />
+	<opcode name="pitch_keycenter" value="094" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A#5.ogg" />
+	<opcode name="pan" value="-45" />
+</region>
+<region>
+	<opcode name="region_label" value="48" />
+	<opcode name="lokey" value="095" />
+	<opcode name="hikey" value="095" />
+	<opcode name="pitch_keycenter" value="095" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP B5.ogg" />
+	<opcode name="offset" value="324" />
+</region>
+<region>
+	<opcode name="region_label" value="49" />
+	<opcode name="lokey" value="096" />
+	<opcode name="hikey" value="096" />
+	<opcode name="pitch_keycenter" value="096" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP C6.ogg" />
+	<opcode name="offset" value="57" />
+</region>
+<region>
+	<opcode name="region_label" value="50" />
+	<opcode name="lokey" value="097" />
+	<opcode name="hikey" value="097" />
+	<opcode name="pitch_keycenter" value="097" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP C#6.ogg" />
+	<opcode name="offset" value="265" />
+</region>
+<region>
+	<opcode name="region_label" value="51" />
+	<opcode name="lokey" value="098" />
+	<opcode name="hikey" value="098" />
+	<opcode name="pitch_keycenter" value="098" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP D6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="52" />
+	<opcode name="lokey" value="099" />
+	<opcode name="hikey" value="099" />
+	<opcode name="pitch_keycenter" value="099" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP D#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="53" />
+	<opcode name="lokey" value="100" />
+	<opcode name="hikey" value="100" />
+	<opcode name="pitch_keycenter" value="100" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP E6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="54" />
+	<opcode name="lokey" value="101" />
+	<opcode name="hikey" value="101" />
+	<opcode name="pitch_keycenter" value="101" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP F6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="55" />
+	<opcode name="lokey" value="102" />
+	<opcode name="hikey" value="102" />
+	<opcode name="pitch_keycenter" value="102" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP F#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="56" />
+	<opcode name="lokey" value="103" />
+	<opcode name="hikey" value="103" />
+	<opcode name="pitch_keycenter" value="103" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="57" />
+	<opcode name="lokey" value="104" />
+	<opcode name="hikey" value="104" />
+	<opcode name="pitch_keycenter" value="104" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP G#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="58" />
+	<opcode name="lokey" value="105" />
+	<opcode name="hikey" value="105" />
+	<opcode name="pitch_keycenter" value="105" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A6.ogg" />
+	<opcode name="offset" value="146" />
+</region>
+<region>
+	<opcode name="region_label" value="59" />
+	<opcode name="lokey" value="106" />
+	<opcode name="hikey" value="106" />
+	<opcode name="pitch_keycenter" value="106" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP A#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="60" />
+	<opcode name="lokey" value="107" />
+	<opcode name="hikey" value="107" />
+	<opcode name="pitch_keycenter" value="107" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP B6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="61" />
+	<opcode name="lokey" value="108" />
+	<opcode name="hikey" value="108" />
+	<opcode name="pitch_keycenter" value="108" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP C7.ogg" />
+</region>
+<group>
+	<opcode name="lovel" value="68" />
+	<opcode name="hivel" value="84" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="MP" />
+</group>
+<region>
+	<opcode name="region_label" value="01" />
+	<opcode name="lokey" value="021" />
+	<opcode name="hikey" value="024" />
+	<opcode name="pitch_keycenter" value="023" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="Mp B-1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="02" />
+	<opcode name="lokey" value="025" />
+	<opcode name="hikey" value="027" />
+	<opcode name="pitch_keycenter" value="027" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="Mp D#0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="03" />
+	<opcode name="lokey" value="028" />
+	<opcode name="hikey" value="030" />
+	<opcode name="pitch_keycenter" value="029" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="Mp F0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="04" />
+	<opcode name="lokey" value="031" />
+	<opcode name="hikey" value="032" />
+	<opcode name="pitch_keycenter" value="031" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="Mp G0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="05" />
+	<opcode name="lokey" value="033" />
+	<opcode name="hikey" value="034" />
+	<opcode name="pitch_keycenter" value="033" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="Mp A0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="06" />
+	<opcode name="lokey" value="035" />
+	<opcode name="hikey" value="035" />
+	<opcode name="pitch_keycenter" value="035" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="Mp B0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="07" />
+	<opcode name="lokey" value="036" />
+	<opcode name="hikey" value="037" />
+	<opcode name="pitch_keycenter" value="037" />
+	<opcode name="sample" value="Mp C#1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="08" />
+	<opcode name="lokey" value="038" />
+	<opcode name="hikey" value="039" />
+	<opcode name="pitch_keycenter" value="038" />
+	<opcode name="sample" value="Mp D1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="09" />
+	<opcode name="lokey" value="040" />
+	<opcode name="hikey" value="040" />
+	<opcode name="pitch_keycenter" value="040" />
+	<opcode name="sample" value="Mp E1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="10" />
+	<opcode name="lokey" value="041" />
+	<opcode name="hikey" value="041" />
+	<opcode name="pitch_keycenter" value="041" />
+	<opcode name="sample" value="Mp F1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="11" />
+	<opcode name="lokey" value="042" />
+	<opcode name="hikey" value="044" />
+	<opcode name="pitch_keycenter" value="043" />
+	<opcode name="sample" value="Mp G1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="12" />
+	<opcode name="lokey" value="045" />
+	<opcode name="hikey" value="046" />
+	<opcode name="pitch_keycenter" value="045" />
+	<opcode name="sample" value="Mp A1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="13" />
+	<opcode name="lokey" value="047" />
+	<opcode name="hikey" value="047" />
+	<opcode name="pitch_keycenter" value="047" />
+	<opcode name="sample" value="Mp B1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="14" />
+	<opcode name="lokey" value="048" />
+	<opcode name="hikey" value="049" />
+	<opcode name="pitch_keycenter" value="048" />
+	<opcode name="sample" value="Mp C2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="15" />
+	<opcode name="lokey" value="050" />
+	<opcode name="hikey" value="050" />
+	<opcode name="pitch_keycenter" value="050" />
+	<opcode name="sample" value="Mp D2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="16" />
+	<opcode name="lokey" value="051" />
+	<opcode name="hikey" value="052" />
+	<opcode name="pitch_keycenter" value="052" />
+	<opcode name="sample" value="Mp E2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="17" />
+	<opcode name="lokey" value="053" />
+	<opcode name="hikey" value="054" />
+	<opcode name="pitch_keycenter" value="053" />
+	<opcode name="sample" value="Mp F2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="18" />
+	<opcode name="lokey" value="055" />
+	<opcode name="hikey" value="055" />
+	<opcode name="pitch_keycenter" value="055" />
+	<opcode name="sample" value="Mp G2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="19" />
+	<opcode name="lokey" value="056" />
+	<opcode name="hikey" value="056" />
+	<opcode name="pitch_keycenter" value="056" />
+	<opcode name="sample" value="Mp G#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="20" />
+	<opcode name="lokey" value="057" />
+	<opcode name="hikey" value="057" />
+	<opcode name="pitch_keycenter" value="057" />
+	<opcode name="sample" value="Mp A2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="21" />
+	<opcode name="lokey" value="058" />
+	<opcode name="hikey" value="058" />
+	<opcode name="pitch_keycenter" value="058" />
+	<opcode name="sample" value="Mp A#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="22" />
+	<opcode name="lokey" value="059" />
+	<opcode name="hikey" value="059" />
+	<opcode name="pitch_keycenter" value="059" />
+	<opcode name="sample" value="Mp B2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="23" />
+	<opcode name="lokey" value="060" />
+	<opcode name="hikey" value="061" />
+	<opcode name="pitch_keycenter" value="060" />
+	<opcode name="sample" value="Mp C3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="24" />
+	<opcode name="lokey" value="062" />
+	<opcode name="hikey" value="063" />
+	<opcode name="pitch_keycenter" value="062" />
+	<opcode name="sample" value="Mp D3.ogg" />
+	<opcode name="offset" value="11" />
+</region>
+<region>
+	<opcode name="region_label" value="25" />
+	<opcode name="lokey" value="064" />
+	<opcode name="hikey" value="064" />
+	<opcode name="pitch_keycenter" value="064" />
+	<opcode name="sample" value="Mp E3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="26" />
+	<opcode name="lokey" value="065" />
+	<opcode name="hikey" value="066" />
+	<opcode name="pitch_keycenter" value="065" />
+	<opcode name="sample" value="Mp F3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="27" />
+	<opcode name="lokey" value="067" />
+	<opcode name="hikey" value="068" />
+	<opcode name="pitch_keycenter" value="067" />
+	<opcode name="sample" value="Mp G3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="28" />
+	<opcode name="lokey" value="069" />
+	<opcode name="hikey" value="069" />
+	<opcode name="pitch_keycenter" value="069" />
+	<opcode name="sample" value="Mp A3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="29" />
+	<opcode name="lokey" value="070" />
+	<opcode name="hikey" value="071" />
+	<opcode name="pitch_keycenter" value="071" />
+	<opcode name="sample" value="Mp B3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="30" />
+	<opcode name="lokey" value="072" />
+	<opcode name="hikey" value="073" />
+	<opcode name="pitch_keycenter" value="072" />
+	<opcode name="sample" value="Mp C4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="31" />
+	<opcode name="lokey" value="074" />
+	<opcode name="hikey" value="075" />
+	<opcode name="pitch_keycenter" value="074" />
+	<opcode name="sample" value="Mp D4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="32" />
+	<opcode name="lokey" value="076" />
+	<opcode name="hikey" value="076" />
+	<opcode name="pitch_keycenter" value="076" />
+	<opcode name="sample" value="Mp E4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="33" />
+	<opcode name="lokey" value="077" />
+	<opcode name="hikey" value="078" />
+	<opcode name="pitch_keycenter" value="077" />
+	<opcode name="sample" value="Mp F4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="34" />
+	<opcode name="lokey" value="079" />
+	<opcode name="hikey" value="079" />
+	<opcode name="pitch_keycenter" value="079" />
+	<opcode name="sample" value="Mp G4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="35" />
+	<opcode name="lokey" value="080" />
+	<opcode name="hikey" value="080" />
+	<opcode name="pitch_keycenter" value="080" />
+	<opcode name="sample" value="Mp G#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="36" />
+	<opcode name="lokey" value="081" />
+	<opcode name="hikey" value="081" />
+	<opcode name="pitch_keycenter" value="081" />
+	<opcode name="sample" value="Mp A4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="37" />
+	<opcode name="lokey" value="082" />
+	<opcode name="hikey" value="082" />
+	<opcode name="pitch_keycenter" value="082" />
+	<opcode name="sample" value="Mp A#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="38" />
+	<opcode name="lokey" value="083" />
+	<opcode name="hikey" value="083" />
+	<opcode name="pitch_keycenter" value="083" />
+	<opcode name="sample" value="Mp B4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="39" />
+	<opcode name="lokey" value="084" />
+	<opcode name="hikey" value="085" />
+	<opcode name="pitch_keycenter" value="085" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="Mp C#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="40" />
+	<opcode name="lokey" value="086" />
+	<opcode name="hikey" value="086" />
+	<opcode name="pitch_keycenter" value="086" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="Mp D5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="41" />
+	<opcode name="lokey" value="087" />
+	<opcode name="hikey" value="087" />
+	<opcode name="pitch_keycenter" value="087" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="Mp D#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="42" />
+	<opcode name="lokey" value="088" />
+	<opcode name="hikey" value="088" />
+	<opcode name="pitch_keycenter" value="088" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="Mp E5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="43" />
+	<opcode name="lokey" value="089" />
+	<opcode name="hikey" value="089" />
+	<opcode name="pitch_keycenter" value="089" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="Mp F5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="44" />
+	<opcode name="lokey" value="090" />
+	<opcode name="hikey" value="090" />
+	<opcode name="pitch_keycenter" value="090" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="Mp F#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="45" />
+	<opcode name="lokey" value="091" />
+	<opcode name="hikey" value="091" />
+	<opcode name="pitch_keycenter" value="091" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp G5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="46" />
+	<opcode name="lokey" value="092" />
+	<opcode name="hikey" value="092" />
+	<opcode name="pitch_keycenter" value="092" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp G#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="47" />
+	<opcode name="lokey" value="093" />
+	<opcode name="hikey" value="093" />
+	<opcode name="pitch_keycenter" value="093" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp A5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="48" />
+	<opcode name="lokey" value="094" />
+	<opcode name="hikey" value="094" />
+	<opcode name="pitch_keycenter" value="094" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp A#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="49" />
+	<opcode name="lokey" value="095" />
+	<opcode name="hikey" value="095" />
+	<opcode name="pitch_keycenter" value="095" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp B5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="50" />
+	<opcode name="lokey" value="096" />
+	<opcode name="hikey" value="096" />
+	<opcode name="pitch_keycenter" value="096" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp C6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="51" />
+	<opcode name="lokey" value="097" />
+	<opcode name="hikey" value="097" />
+	<opcode name="pitch_keycenter" value="097" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp C#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="52" />
+	<opcode name="lokey" value="098" />
+	<opcode name="hikey" value="098" />
+	<opcode name="pitch_keycenter" value="098" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp D6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="53" />
+	<opcode name="lokey" value="099" />
+	<opcode name="hikey" value="099" />
+	<opcode name="pitch_keycenter" value="099" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp D#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="54" />
+	<opcode name="lokey" value="100" />
+	<opcode name="hikey" value="100" />
+	<opcode name="pitch_keycenter" value="100" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP E6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="55" />
+	<opcode name="lokey" value="101" />
+	<opcode name="hikey" value="101" />
+	<opcode name="pitch_keycenter" value="101" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp F6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="56" />
+	<opcode name="lokey" value="102" />
+	<opcode name="hikey" value="102" />
+	<opcode name="pitch_keycenter" value="102" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp F#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="57" />
+	<opcode name="lokey" value="103" />
+	<opcode name="hikey" value="103" />
+	<opcode name="pitch_keycenter" value="103" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp G6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="58" />
+	<opcode name="lokey" value="104" />
+	<opcode name="hikey" value="104" />
+	<opcode name="pitch_keycenter" value="104" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp G#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="59" />
+	<opcode name="lokey" value="105" />
+	<opcode name="hikey" value="105" />
+	<opcode name="pitch_keycenter" value="105" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp A6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="60" />
+	<opcode name="lokey" value="106" />
+	<opcode name="hikey" value="106" />
+	<opcode name="pitch_keycenter" value="106" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mp A#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="61" />
+	<opcode name="lokey" value="107" />
+	<opcode name="hikey" value="107" />
+	<opcode name="pitch_keycenter" value="107" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP B6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="62" />
+	<opcode name="lokey" value="108" />
+	<opcode name="hikey" value="108" />
+	<opcode name="pitch_keycenter" value="108" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="PP C7.ogg" />
+</region>
+<group>
+	<opcode name="lovel" value="85" />
+	<opcode name="hivel" value="100" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="MF" />
+</group>
+<region>
+	<opcode name="region_label" value="01" />
+	<opcode name="lokey" value="021" />
+	<opcode name="hikey" value="024" />
+	<opcode name="pitch_keycenter" value="023" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="Mf B-1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="02" />
+	<opcode name="lokey" value="025" />
+	<opcode name="hikey" value="027" />
+	<opcode name="pitch_keycenter" value="027" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="Mf D#0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="03" />
+	<opcode name="lokey" value="028" />
+	<opcode name="hikey" value="030" />
+	<opcode name="pitch_keycenter" value="029" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="Mf F0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="04" />
+	<opcode name="lokey" value="031" />
+	<opcode name="hikey" value="032" />
+	<opcode name="pitch_keycenter" value="031" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="Mf G0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="05" />
+	<opcode name="lokey" value="033" />
+	<opcode name="hikey" value="034" />
+	<opcode name="pitch_keycenter" value="033" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="Mf A0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="06" />
+	<opcode name="lokey" value="035" />
+	<opcode name="hikey" value="035" />
+	<opcode name="pitch_keycenter" value="035" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="Mf B0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="07" />
+	<opcode name="lokey" value="036" />
+	<opcode name="hikey" value="037" />
+	<opcode name="pitch_keycenter" value="037" />
+	<opcode name="sample" value="MF C#1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="08" />
+	<opcode name="lokey" value="038" />
+	<opcode name="hikey" value="039" />
+	<opcode name="pitch_keycenter" value="038" />
+	<opcode name="sample" value="MF D1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="09" />
+	<opcode name="lokey" value="040" />
+	<opcode name="hikey" value="040" />
+	<opcode name="pitch_keycenter" value="040" />
+	<opcode name="sample" value="MF E1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="10" />
+	<opcode name="lokey" value="041" />
+	<opcode name="hikey" value="041" />
+	<opcode name="pitch_keycenter" value="041" />
+	<opcode name="sample" value="MF F1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="11" />
+	<opcode name="lokey" value="042" />
+	<opcode name="hikey" value="044" />
+	<opcode name="pitch_keycenter" value="043" />
+	<opcode name="sample" value="MF G1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="12" />
+	<opcode name="lokey" value="045" />
+	<opcode name="hikey" value="046" />
+	<opcode name="pitch_keycenter" value="045" />
+	<opcode name="sample" value="MF A1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="13" />
+	<opcode name="lokey" value="047" />
+	<opcode name="hikey" value="047" />
+	<opcode name="pitch_keycenter" value="047" />
+	<opcode name="sample" value="MF B1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="14" />
+	<opcode name="lokey" value="048" />
+	<opcode name="hikey" value="049" />
+	<opcode name="pitch_keycenter" value="048" />
+	<opcode name="sample" value="MF C2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="15" />
+	<opcode name="lokey" value="050" />
+	<opcode name="hikey" value="050" />
+	<opcode name="pitch_keycenter" value="050" />
+	<opcode name="sample" value="MF D2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="16" />
+	<opcode name="lokey" value="051" />
+	<opcode name="hikey" value="052" />
+	<opcode name="pitch_keycenter" value="052" />
+	<opcode name="sample" value="MF E2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="17" />
+	<opcode name="lokey" value="053" />
+	<opcode name="hikey" value="054" />
+	<opcode name="pitch_keycenter" value="053" />
+	<opcode name="sample" value="MF F2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="18" />
+	<opcode name="lokey" value="055" />
+	<opcode name="hikey" value="055" />
+	<opcode name="pitch_keycenter" value="055" />
+	<opcode name="sample" value="MF G2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="19" />
+	<opcode name="lokey" value="056" />
+	<opcode name="hikey" value="056" />
+	<opcode name="pitch_keycenter" value="056" />
+	<opcode name="sample" value="MF G#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="20" />
+	<opcode name="lokey" value="057" />
+	<opcode name="hikey" value="057" />
+	<opcode name="pitch_keycenter" value="057" />
+	<opcode name="sample" value="MF A2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="21" />
+	<opcode name="lokey" value="058" />
+	<opcode name="hikey" value="058" />
+	<opcode name="pitch_keycenter" value="058" />
+	<opcode name="sample" value="MF A#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="22" />
+	<opcode name="lokey" value="059" />
+	<opcode name="hikey" value="059" />
+	<opcode name="pitch_keycenter" value="059" />
+	<opcode name="sample" value="MF B2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="23" />
+	<opcode name="lokey" value="060" />
+	<opcode name="hikey" value="061" />
+	<opcode name="pitch_keycenter" value="060" />
+	<opcode name="sample" value="MF C3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="24" />
+	<opcode name="lokey" value="062" />
+	<opcode name="hikey" value="063" />
+	<opcode name="pitch_keycenter" value="062" />
+	<opcode name="sample" value="MF D3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="25" />
+	<opcode name="lokey" value="064" />
+	<opcode name="hikey" value="064" />
+	<opcode name="pitch_keycenter" value="064" />
+	<opcode name="sample" value="MF E3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="26" />
+	<opcode name="lokey" value="065" />
+	<opcode name="hikey" value="066" />
+	<opcode name="pitch_keycenter" value="065" />
+	<opcode name="sample" value="MF F3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="27" />
+	<opcode name="lokey" value="067" />
+	<opcode name="hikey" value="068" />
+	<opcode name="pitch_keycenter" value="067" />
+	<opcode name="sample" value="MF G3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="28" />
+	<opcode name="lokey" value="069" />
+	<opcode name="hikey" value="069" />
+	<opcode name="pitch_keycenter" value="069" />
+	<opcode name="sample" value="MF A3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="29" />
+	<opcode name="lokey" value="070" />
+	<opcode name="hikey" value="071" />
+	<opcode name="pitch_keycenter" value="071" />
+	<opcode name="sample" value="MF B3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="30" />
+	<opcode name="lokey" value="072" />
+	<opcode name="hikey" value="073" />
+	<opcode name="pitch_keycenter" value="072" />
+	<opcode name="sample" value="MF C4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="31" />
+	<opcode name="lokey" value="074" />
+	<opcode name="hikey" value="075" />
+	<opcode name="pitch_keycenter" value="074" />
+	<opcode name="sample" value="Mf D4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="32" />
+	<opcode name="lokey" value="076" />
+	<opcode name="hikey" value="076" />
+	<opcode name="pitch_keycenter" value="076" />
+	<opcode name="sample" value="Mf E4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="33" />
+	<opcode name="lokey" value="077" />
+	<opcode name="hikey" value="078" />
+	<opcode name="pitch_keycenter" value="077" />
+	<opcode name="sample" value="Mf F4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="34" />
+	<opcode name="lokey" value="079" />
+	<opcode name="hikey" value="079" />
+	<opcode name="pitch_keycenter" value="079" />
+	<opcode name="sample" value="Mf G4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="35" />
+	<opcode name="lokey" value="080" />
+	<opcode name="hikey" value="080" />
+	<opcode name="pitch_keycenter" value="080" />
+	<opcode name="sample" value="Mf G#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="36" />
+	<opcode name="lokey" value="081" />
+	<opcode name="hikey" value="081" />
+	<opcode name="pitch_keycenter" value="081" />
+	<opcode name="sample" value="Mf A4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="37" />
+	<opcode name="lokey" value="082" />
+	<opcode name="hikey" value="082" />
+	<opcode name="pitch_keycenter" value="082" />
+	<opcode name="sample" value="Mf A#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="38" />
+	<opcode name="lokey" value="083" />
+	<opcode name="hikey" value="083" />
+	<opcode name="pitch_keycenter" value="083" />
+	<opcode name="sample" value="Mf B4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="39" />
+	<opcode name="lokey" value="084" />
+	<opcode name="hikey" value="085" />
+	<opcode name="pitch_keycenter" value="085" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="Mf C#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="40" />
+	<opcode name="lokey" value="086" />
+	<opcode name="hikey" value="086" />
+	<opcode name="pitch_keycenter" value="086" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="Mf D5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="41" />
+	<opcode name="lokey" value="087" />
+	<opcode name="hikey" value="087" />
+	<opcode name="pitch_keycenter" value="087" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="Mf D#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="42" />
+	<opcode name="lokey" value="088" />
+	<opcode name="hikey" value="088" />
+	<opcode name="pitch_keycenter" value="088" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="Mf E5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="43" />
+	<opcode name="lokey" value="089" />
+	<opcode name="hikey" value="089" />
+	<opcode name="pitch_keycenter" value="089" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="Mf F5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="44" />
+	<opcode name="lokey" value="090" />
+	<opcode name="hikey" value="090" />
+	<opcode name="pitch_keycenter" value="090" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="Mf F#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="45" />
+	<opcode name="lokey" value="091" />
+	<opcode name="hikey" value="091" />
+	<opcode name="pitch_keycenter" value="091" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf G5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="46" />
+	<opcode name="lokey" value="092" />
+	<opcode name="hikey" value="092" />
+	<opcode name="pitch_keycenter" value="092" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf G#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="47" />
+	<opcode name="lokey" value="093" />
+	<opcode name="hikey" value="093" />
+	<opcode name="pitch_keycenter" value="093" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf A5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="48" />
+	<opcode name="lokey" value="094" />
+	<opcode name="hikey" value="094" />
+	<opcode name="pitch_keycenter" value="094" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf A#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="49" />
+	<opcode name="lokey" value="095" />
+	<opcode name="hikey" value="095" />
+	<opcode name="pitch_keycenter" value="095" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf B5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="50" />
+	<opcode name="lokey" value="096" />
+	<opcode name="hikey" value="096" />
+	<opcode name="pitch_keycenter" value="096" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf C6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="51" />
+	<opcode name="lokey" value="097" />
+	<opcode name="hikey" value="097" />
+	<opcode name="pitch_keycenter" value="097" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf C#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="52" />
+	<opcode name="lokey" value="098" />
+	<opcode name="hikey" value="098" />
+	<opcode name="pitch_keycenter" value="098" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf D6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="53" />
+	<opcode name="lokey" value="099" />
+	<opcode name="hikey" value="099" />
+	<opcode name="pitch_keycenter" value="099" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf D#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="54" />
+	<opcode name="lokey" value="100" />
+	<opcode name="hikey" value="100" />
+	<opcode name="pitch_keycenter" value="100" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf E6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="55" />
+	<opcode name="lokey" value="101" />
+	<opcode name="hikey" value="101" />
+	<opcode name="pitch_keycenter" value="101" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf F6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="56" />
+	<opcode name="lokey" value="102" />
+	<opcode name="hikey" value="102" />
+	<opcode name="pitch_keycenter" value="102" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf F#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="57" />
+	<opcode name="lokey" value="103" />
+	<opcode name="hikey" value="103" />
+	<opcode name="pitch_keycenter" value="103" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf G6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="58" />
+	<opcode name="lokey" value="104" />
+	<opcode name="hikey" value="104" />
+	<opcode name="pitch_keycenter" value="104" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf G#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="59" />
+	<opcode name="lokey" value="105" />
+	<opcode name="hikey" value="105" />
+	<opcode name="pitch_keycenter" value="105" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf A6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="60" />
+	<opcode name="lokey" value="106" />
+	<opcode name="hikey" value="106" />
+	<opcode name="pitch_keycenter" value="106" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf A#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="61" />
+	<opcode name="lokey" value="107" />
+	<opcode name="hikey" value="107" />
+	<opcode name="pitch_keycenter" value="107" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf B6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="62" />
+	<opcode name="lokey" value="108" />
+	<opcode name="hikey" value="108" />
+	<opcode name="pitch_keycenter" value="108" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf C7.ogg" />
+</region>
+<group>
+	<opcode name="lovel" value="101" />
+	<opcode name="hivel" value="127" />
+	<opcode name="group_volume" value="0" />
+	<opcode name="group_label" value="FF" />
+</group>
+<region>
+	<opcode name="region_label" value="01" />
+	<opcode name="lokey" value="021" />
+	<opcode name="hikey" value="024" />
+	<opcode name="pitch_keycenter" value="023" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="FF B-1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="02" />
+	<opcode name="lokey" value="025" />
+	<opcode name="hikey" value="027" />
+	<opcode name="pitch_keycenter" value="027" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="FF D#0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="03" />
+	<opcode name="lokey" value="028" />
+	<opcode name="hikey" value="030" />
+	<opcode name="pitch_keycenter" value="029" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="FF F0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="04" />
+	<opcode name="lokey" value="031" />
+	<opcode name="hikey" value="032" />
+	<opcode name="pitch_keycenter" value="031" />
+	<opcode name="ampeg_release" value="0.3" />
+	<opcode name="sample" value="FF G0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="05" />
+	<opcode name="lokey" value="033" />
+	<opcode name="hikey" value="034" />
+	<opcode name="pitch_keycenter" value="033" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="FF A0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="06" />
+	<opcode name="lokey" value="035" />
+	<opcode name="hikey" value="035" />
+	<opcode name="pitch_keycenter" value="035" />
+	<opcode name="ampeg_release" value="0.1" />
+	<opcode name="sample" value="FF B0.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="07" />
+	<opcode name="lokey" value="036" />
+	<opcode name="hikey" value="037" />
+	<opcode name="pitch_keycenter" value="037" />
+	<opcode name="sample" value="FF C#1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="08" />
+	<opcode name="lokey" value="038" />
+	<opcode name="hikey" value="039" />
+	<opcode name="pitch_keycenter" value="038" />
+	<opcode name="sample" value="FF D1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="09" />
+	<opcode name="lokey" value="040" />
+	<opcode name="hikey" value="040" />
+	<opcode name="pitch_keycenter" value="040" />
+	<opcode name="sample" value="FF E1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="10" />
+	<opcode name="lokey" value="041" />
+	<opcode name="hikey" value="041" />
+	<opcode name="pitch_keycenter" value="041" />
+	<opcode name="sample" value="FF F1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="11" />
+	<opcode name="lokey" value="042" />
+	<opcode name="hikey" value="044" />
+	<opcode name="pitch_keycenter" value="043" />
+	<opcode name="sample" value="FF G1.ogg" />
+	<opcode name="offset" value="100" />
+</region>
+<region>
+	<opcode name="region_label" value="12" />
+	<opcode name="lokey" value="045" />
+	<opcode name="hikey" value="046" />
+	<opcode name="pitch_keycenter" value="045" />
+	<opcode name="sample" value="FF A1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="13" />
+	<opcode name="lokey" value="047" />
+	<opcode name="hikey" value="047" />
+	<opcode name="pitch_keycenter" value="047" />
+	<opcode name="sample" value="FF B1.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="14" />
+	<opcode name="lokey" value="048" />
+	<opcode name="hikey" value="049" />
+	<opcode name="pitch_keycenter" value="048" />
+	<opcode name="sample" value="FF C2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="15" />
+	<opcode name="lokey" value="050" />
+	<opcode name="hikey" value="050" />
+	<opcode name="pitch_keycenter" value="050" />
+	<opcode name="sample" value="FF D2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="16" />
+	<opcode name="lokey" value="051" />
+	<opcode name="hikey" value="052" />
+	<opcode name="pitch_keycenter" value="052" />
+	<opcode name="sample" value="FF E2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="17" />
+	<opcode name="lokey" value="053" />
+	<opcode name="hikey" value="054" />
+	<opcode name="pitch_keycenter" value="053" />
+	<opcode name="sample" value="FF F2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="18" />
+	<opcode name="lokey" value="055" />
+	<opcode name="hikey" value="055" />
+	<opcode name="pitch_keycenter" value="055" />
+	<opcode name="sample" value="FF G2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="19" />
+	<opcode name="lokey" value="056" />
+	<opcode name="hikey" value="056" />
+	<opcode name="pitch_keycenter" value="056" />
+	<opcode name="sample" value="FF G#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="20" />
+	<opcode name="lokey" value="057" />
+	<opcode name="hikey" value="057" />
+	<opcode name="pitch_keycenter" value="057" />
+	<opcode name="sample" value="FF A2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="21" />
+	<opcode name="lokey" value="058" />
+	<opcode name="hikey" value="058" />
+	<opcode name="pitch_keycenter" value="058" />
+	<opcode name="sample" value="FF A#2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="22" />
+	<opcode name="lokey" value="059" />
+	<opcode name="hikey" value="059" />
+	<opcode name="pitch_keycenter" value="059" />
+	<opcode name="sample" value="FF B2.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="23" />
+	<opcode name="lokey" value="060" />
+	<opcode name="hikey" value="061" />
+	<opcode name="pitch_keycenter" value="060" />
+	<opcode name="sample" value="FF C3.ogg" />
+	<opcode name="offset" value="325" />
+</region>
+<region>
+	<opcode name="region_label" value="24" />
+	<opcode name="lokey" value="062" />
+	<opcode name="hikey" value="063" />
+	<opcode name="pitch_keycenter" value="062" />
+	<opcode name="sample" value="FF D3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="25" />
+	<opcode name="lokey" value="064" />
+	<opcode name="hikey" value="064" />
+	<opcode name="pitch_keycenter" value="064" />
+	<opcode name="sample" value="FF E3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="26" />
+	<opcode name="lokey" value="065" />
+	<opcode name="hikey" value="066" />
+	<opcode name="pitch_keycenter" value="065" />
+	<opcode name="sample" value="FF F3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="27" />
+	<opcode name="lokey" value="067" />
+	<opcode name="hikey" value="068" />
+	<opcode name="pitch_keycenter" value="067" />
+	<opcode name="sample" value="FF G3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="28" />
+	<opcode name="lokey" value="069" />
+	<opcode name="hikey" value="069" />
+	<opcode name="pitch_keycenter" value="069" />
+	<opcode name="sample" value="FF A3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="29" />
+	<opcode name="lokey" value="070" />
+	<opcode name="hikey" value="071" />
+	<opcode name="pitch_keycenter" value="071" />
+	<opcode name="sample" value="FF B3.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="30" />
+	<opcode name="lokey" value="072" />
+	<opcode name="hikey" value="073" />
+	<opcode name="pitch_keycenter" value="072" />
+	<opcode name="sample" value="FF C4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="31" />
+	<opcode name="lokey" value="074" />
+	<opcode name="hikey" value="075" />
+	<opcode name="pitch_keycenter" value="074" />
+	<opcode name="sample" value="FF D4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="32" />
+	<opcode name="lokey" value="076" />
+	<opcode name="hikey" value="076" />
+	<opcode name="pitch_keycenter" value="076" />
+	<opcode name="sample" value="FF E4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="33" />
+	<opcode name="lokey" value="077" />
+	<opcode name="hikey" value="078" />
+	<opcode name="pitch_keycenter" value="077" />
+	<opcode name="sample" value="FF F4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="34" />
+	<opcode name="lokey" value="079" />
+	<opcode name="hikey" value="079" />
+	<opcode name="pitch_keycenter" value="079" />
+	<opcode name="sample" value="FF G4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="35" />
+	<opcode name="lokey" value="080" />
+	<opcode name="hikey" value="080" />
+	<opcode name="pitch_keycenter" value="080" />
+	<opcode name="sample" value="FF G#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="36" />
+	<opcode name="lokey" value="081" />
+	<opcode name="hikey" value="081" />
+	<opcode name="pitch_keycenter" value="081" />
+	<opcode name="sample" value="FF A4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="37" />
+	<opcode name="lokey" value="082" />
+	<opcode name="hikey" value="082" />
+	<opcode name="pitch_keycenter" value="082" />
+	<opcode name="sample" value="FF A#4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="38" />
+	<opcode name="lokey" value="083" />
+	<opcode name="hikey" value="083" />
+	<opcode name="pitch_keycenter" value="083" />
+	<opcode name="sample" value="FF B4.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="39" />
+	<opcode name="lokey" value="084" />
+	<opcode name="hikey" value="085" />
+	<opcode name="pitch_keycenter" value="085" />
+	<opcode name="ampeg_release" value="0.2" />
+	<opcode name="sample" value="FF C#5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="40" />
+	<opcode name="lokey" value="086" />
+	<opcode name="hikey" value="087" />
+	<opcode name="pitch_keycenter" value="086" />
+	<opcode name="ampeg_release" value="0.4" />
+	<opcode name="sample" value="FF D5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="41" />
+	<opcode name="lokey" value="088" />
+	<opcode name="hikey" value="088" />
+	<opcode name="pitch_keycenter" value="088" />
+	<opcode name="ampeg_release" value="0.5" />
+	<opcode name="sample" value="FF E5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="42" />
+	<opcode name="lokey" value="089" />
+	<opcode name="hikey" value="090" />
+	<opcode name="pitch_keycenter" value="089" />
+	<opcode name="ampeg_release" value="0.6" />
+	<opcode name="sample" value="FF F5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="43" />
+	<opcode name="lokey" value="091" />
+	<opcode name="hikey" value="092" />
+	<opcode name="pitch_keycenter" value="091" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="FF G5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="44" />
+	<opcode name="lokey" value="093" />
+	<opcode name="hikey" value="094" />
+	<opcode name="pitch_keycenter" value="093" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="FF A5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="45" />
+	<opcode name="lokey" value="095" />
+	<opcode name="hikey" value="095" />
+	<opcode name="pitch_keycenter" value="095" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf B5.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="46" />
+	<opcode name="lokey" value="096" />
+	<opcode name="hikey" value="097" />
+	<opcode name="pitch_keycenter" value="096" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf C6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="47" />
+	<opcode name="lokey" value="098" />
+	<opcode name="hikey" value="098" />
+	<opcode name="pitch_keycenter" value="097" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf C#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="48" />
+	<opcode name="lokey" value="099" />
+	<opcode name="hikey" value="099" />
+	<opcode name="pitch_keycenter" value="098" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf D6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="49" />
+	<opcode name="lokey" value="100" />
+	<opcode name="hikey" value="100" />
+	<opcode name="pitch_keycenter" value="099" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf D#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="50" />
+	<opcode name="lokey" value="101" />
+	<opcode name="hikey" value="101" />
+	<opcode name="pitch_keycenter" value="100" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf E6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="51" />
+	<opcode name="lokey" value="102" />
+	<opcode name="hikey" value="102" />
+	<opcode name="pitch_keycenter" value="102" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf F#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="52" />
+	<opcode name="lokey" value="103" />
+	<opcode name="hikey" value="103" />
+	<opcode name="pitch_keycenter" value="103" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf G6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="53" />
+	<opcode name="lokey" value="104" />
+	<opcode name="hikey" value="104" />
+	<opcode name="pitch_keycenter" value="104" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf G#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="54" />
+	<opcode name="lokey" value="105" />
+	<opcode name="hikey" value="105" />
+	<opcode name="pitch_keycenter" value="105" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf A6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="55" />
+	<opcode name="lokey" value="106" />
+	<opcode name="hikey" value="106" />
+	<opcode name="pitch_keycenter" value="106" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf A#6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="56" />
+	<opcode name="lokey" value="107" />
+	<opcode name="hikey" value="107" />
+	<opcode name="pitch_keycenter" value="107" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf B6.ogg" />
+</region>
+<region>
+	<opcode name="region_label" value="57" />
+	<opcode name="lokey" value="108" />
+	<opcode name="hikey" value="108" />
+	<opcode name="pitch_keycenter" value="108" />
+	<opcode name="ampeg_release" value="10" />
+	<opcode name="sample" value="Mf C7.ogg" />
+</region>
