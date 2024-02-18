@@ -263,6 +263,22 @@
             "name": "amplitude_oncc70",
             "value": "200"
           }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "group_volume",
+            "value": "-11"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "ampeg_attack",
+            "value": "0.1"
+          }
         }
       ]
     },
@@ -2727,7 +2743,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B-1.ogg"
+            "value": "FF B-1.ogg"
           }
         }
       ]
@@ -2781,7 +2797,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D#0.ogg"
+            "value": "FF D#0.ogg"
           }
         }
       ]
@@ -2835,7 +2851,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F0.ogg"
+            "value": "FF F0.ogg"
           }
         }
       ]
@@ -2889,7 +2905,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G0.ogg"
+            "value": "FF G0.ogg"
           }
         }
       ]
@@ -2943,7 +2959,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A0.ogg"
+            "value": "FF A0.ogg"
           }
         }
       ]
@@ -2997,15 +3013,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B0.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "618"
+            "value": "FF B0.ogg"
           }
         }
       ]
@@ -3051,15 +3059,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C#1.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "volume",
-            "value": "1"
+            "value": "FF C#1.ogg"
           }
         }
       ]
@@ -3105,15 +3105,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D1.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "1046"
+            "value": "FF D1.ogg"
           }
         }
       ]
@@ -3159,7 +3151,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E1.ogg"
+            "value": "FF E1.ogg"
           }
         }
       ]
@@ -3205,7 +3197,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F1.ogg"
+            "value": "FF F1.ogg"
           }
         }
       ]
@@ -3251,7 +3243,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G1.ogg"
+            "value": "FF G1.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "100"
           }
         }
       ]
@@ -3297,7 +3297,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A1.ogg"
+            "value": "FF A1.ogg"
           }
         }
       ]
@@ -3343,7 +3343,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B1.ogg"
+            "value": "FF B1.ogg"
           }
         }
       ]
@@ -3389,7 +3389,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C2.ogg"
+            "value": "FF C2.ogg"
           }
         }
       ]
@@ -3435,7 +3435,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D2.ogg"
+            "value": "FF D2.ogg"
           }
         }
       ]
@@ -3481,7 +3481,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E2.ogg"
+            "value": "FF E2.ogg"
           }
         }
       ]
@@ -3527,7 +3527,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F2.ogg"
+            "value": "FF F2.ogg"
           }
         }
       ]
@@ -3573,7 +3573,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G2.ogg"
+            "value": "FF G2.ogg"
           }
         }
       ]
@@ -3619,7 +3619,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G#2.ogg"
+            "value": "FF G#2.ogg"
           }
         }
       ]
@@ -3665,7 +3665,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A2.ogg"
+            "value": "FF A2.ogg"
           }
         }
       ]
@@ -3711,7 +3711,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A#2.ogg"
+            "value": "FF A#2.ogg"
           }
         }
       ]
@@ -3757,7 +3757,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B2.ogg"
+            "value": "FF B2.ogg"
           }
         }
       ]
@@ -3803,7 +3803,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C3.ogg"
+            "value": "FF C3.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "325"
           }
         }
       ]
@@ -3849,7 +3857,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D3.ogg"
+            "value": "FF D3.ogg"
           }
         }
       ]
@@ -3895,7 +3903,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E3.ogg"
+            "value": "FF E3.ogg"
           }
         }
       ]
@@ -3941,7 +3949,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F3.ogg"
+            "value": "FF F3.ogg"
           }
         }
       ]
@@ -3987,7 +3995,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G3.ogg"
+            "value": "FF G3.ogg"
           }
         }
       ]
@@ -4033,7 +4041,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A3.ogg"
+            "value": "FF A3.ogg"
           }
         }
       ]
@@ -4079,7 +4087,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B3.ogg"
+            "value": "FF B3.ogg"
           }
         }
       ]
@@ -4125,7 +4133,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C4.ogg"
+            "value": "FF C4.ogg"
           }
         }
       ]
@@ -4171,7 +4179,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D4.ogg"
+            "value": "FF D4.ogg"
           }
         }
       ]
@@ -4217,7 +4225,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E4.ogg"
+            "value": "FF E4.ogg"
           }
         }
       ]
@@ -4263,7 +4271,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F4.ogg"
+            "value": "FF F4.ogg"
           }
         }
       ]
@@ -4309,7 +4317,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G4.ogg"
+            "value": "FF G4.ogg"
           }
         }
       ]
@@ -4355,7 +4363,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G#4.ogg"
+            "value": "FF G#4.ogg"
           }
         }
       ]
@@ -4401,7 +4409,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A4.ogg"
+            "value": "FF A4.ogg"
           }
         }
       ]
@@ -4447,7 +4455,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A#4.ogg"
+            "value": "FF A#4.ogg"
           }
         }
       ]
@@ -4493,7 +4501,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B4.ogg"
+            "value": "FF B4.ogg"
           }
         }
       ]
@@ -4539,7 +4547,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.1"
+            "value": "0.2"
           }
         },
         {
@@ -4547,7 +4555,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C#5.ogg"
+            "value": "FF C#5.ogg"
           }
         }
       ]
@@ -4577,7 +4585,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "086"
+            "value": "087"
           }
         },
         {
@@ -4593,7 +4601,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.2"
+            "value": "0.4"
           }
         },
         {
@@ -4601,7 +4609,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D5.ogg"
+            "value": "FF D5.ogg"
           }
         }
       ]
@@ -4623,7 +4631,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -4631,7 +4639,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -4639,7 +4647,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -4647,7 +4655,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.3"
+            "value": "0.5"
           }
         },
         {
@@ -4655,7 +4663,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D#5.ogg"
+            "value": "FF E5.ogg"
           }
         }
       ]
@@ -4677,7 +4685,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "088"
+            "value": "089"
           }
         },
         {
@@ -4685,7 +4693,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "089"
+            "value": "090"
           }
         },
         {
@@ -4701,7 +4709,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.4"
+            "value": "0.6"
           }
         },
         {
@@ -4709,7 +4717,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F5.ogg"
+            "value": "FF F5.ogg"
           }
         }
       ]
@@ -4731,7 +4739,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "090"
+            "value": "091"
           }
         },
         {
@@ -4739,7 +4747,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "090"
+            "value": "092"
           }
         },
         {
@@ -4747,7 +4755,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "090"
+            "value": "091"
           }
         },
         {
@@ -4755,7 +4763,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.6"
+            "value": "10"
           }
         },
         {
@@ -4763,15 +4771,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F#5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-40"
+            "value": "FF G5.ogg"
           }
         }
       ]
@@ -4793,7 +4793,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "091"
+            "value": "093"
           }
         },
         {
@@ -4801,7 +4801,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "091"
+            "value": "094"
           }
         },
         {
@@ -4809,7 +4809,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "091"
+            "value": "093"
           }
         },
         {
@@ -4825,23 +4825,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-30"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "135"
+            "value": "FF A5.ogg"
           }
         }
       ]
@@ -4863,7 +4847,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "092"
+            "value": "095"
           }
         },
         {
@@ -4871,7 +4855,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "092"
+            "value": "095"
           }
         },
         {
@@ -4879,7 +4863,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "092"
+            "value": "095"
           }
         },
         {
@@ -4895,15 +4879,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G#5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-30"
+            "value": "Mf B5.ogg"
           }
         }
       ]
@@ -4925,7 +4901,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "093"
+            "value": "096"
           }
         },
         {
@@ -4933,7 +4909,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "093"
+            "value": "097"
           }
         },
         {
@@ -4941,7 +4917,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "093"
+            "value": "096"
           }
         },
         {
@@ -4957,15 +4933,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-45"
+            "value": "Mf C6.ogg"
           }
         }
       ]
@@ -4987,7 +4955,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "094"
+            "value": "098"
           }
         },
         {
@@ -4995,7 +4963,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "094"
+            "value": "098"
           }
         },
         {
@@ -5003,7 +4971,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "094"
+            "value": "097"
           }
         },
         {
@@ -5019,15 +4987,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A#5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-45"
+            "value": "Mf C#6.ogg"
           }
         }
       ]
@@ -5049,7 +5009,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "095"
+            "value": "099"
           }
         },
         {
@@ -5057,7 +5017,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "095"
+            "value": "099"
           }
         },
         {
@@ -5065,7 +5025,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "095"
+            "value": "098"
           }
         },
         {
@@ -5081,15 +5041,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "324"
+            "value": "Mf D6.ogg"
           }
         }
       ]
@@ -5111,7 +5063,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "096"
+            "value": "100"
           }
         },
         {
@@ -5119,7 +5071,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "096"
+            "value": "100"
           }
         },
         {
@@ -5127,7 +5079,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "096"
+            "value": "099"
           }
         },
         {
@@ -5143,15 +5095,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C6.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "57"
+            "value": "Mf D#6.ogg"
           }
         }
       ]
@@ -5173,7 +5117,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "097"
+            "value": "101"
           }
         },
         {
@@ -5181,7 +5125,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "097"
+            "value": "101"
           }
         },
         {
@@ -5189,7 +5133,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "097"
+            "value": "100"
           }
         },
         {
@@ -5205,15 +5149,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C#6.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "265"
+            "value": "Mf E6.ogg"
           }
         }
       ]
@@ -5235,7 +5171,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "098"
+            "value": "102"
           }
         },
         {
@@ -5243,7 +5179,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "098"
+            "value": "102"
           }
         },
         {
@@ -5251,7 +5187,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "098"
+            "value": "102"
           }
         },
         {
@@ -5267,7 +5203,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D6.ogg"
+            "value": "Mf F#6.ogg"
           }
         }
       ]
@@ -5289,7 +5225,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "099"
+            "value": "103"
           }
         },
         {
@@ -5297,7 +5233,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "099"
+            "value": "103"
           }
         },
         {
@@ -5305,7 +5241,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "099"
+            "value": "103"
           }
         },
         {
@@ -5321,7 +5257,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D#6.ogg"
+            "value": "Mf G6.ogg"
           }
         }
       ]
@@ -5343,7 +5279,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "100"
+            "value": "104"
           }
         },
         {
@@ -5351,7 +5287,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "100"
+            "value": "104"
           }
         },
         {
@@ -5359,7 +5295,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "100"
+            "value": "104"
           }
         },
         {
@@ -5375,7 +5311,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E6.ogg"
+            "value": "Mf G#6.ogg"
           }
         }
       ]
@@ -5397,7 +5333,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "101"
+            "value": "105"
           }
         },
         {
@@ -5405,7 +5341,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "101"
+            "value": "105"
           }
         },
         {
@@ -5413,7 +5349,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "101"
+            "value": "105"
           }
         },
         {
@@ -5429,7 +5365,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F6.ogg"
+            "value": "Mf A6.ogg"
           }
         }
       ]
@@ -5451,7 +5387,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "102"
+            "value": "106"
           }
         },
         {
@@ -5459,7 +5395,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "102"
+            "value": "106"
           }
         },
         {
@@ -5467,7 +5403,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "102"
+            "value": "106"
           }
         },
         {
@@ -5483,7 +5419,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F#6.ogg"
+            "value": "Mf A#6.ogg"
           }
         }
       ]
@@ -5505,7 +5441,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "103"
+            "value": "107"
           }
         },
         {
@@ -5513,7 +5449,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "103"
+            "value": "107"
           }
         },
         {
@@ -5521,7 +5457,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "103"
+            "value": "107"
           }
         },
         {
@@ -5537,7 +5473,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G6.ogg"
+            "value": "Mf B6.ogg"
           }
         }
       ]
@@ -5559,230 +5495,6 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP G#6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "58"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP A6.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "146"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "59"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP A#6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "60"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP B6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "61"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
             "value": "108"
           }
         },
@@ -5815,7 +5527,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C7.ogg"
+            "value": "Mf C7.ogg"
           }
         }
       ]
@@ -5907,7 +5619,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B-1.ogg"
+            "value": "FF B-1.ogg"
           }
         }
       ]
@@ -5961,7 +5673,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D#0.ogg"
+            "value": "FF D#0.ogg"
           }
         }
       ]
@@ -6015,7 +5727,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F0.ogg"
+            "value": "FF F0.ogg"
           }
         }
       ]
@@ -6069,7 +5781,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G0.ogg"
+            "value": "FF G0.ogg"
           }
         }
       ]
@@ -6123,7 +5835,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A0.ogg"
+            "value": "FF A0.ogg"
           }
         }
       ]
@@ -6177,15 +5889,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B0.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "618"
+            "value": "FF B0.ogg"
           }
         }
       ]
@@ -6231,15 +5935,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C#1.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "volume",
-            "value": "1"
+            "value": "FF C#1.ogg"
           }
         }
       ]
@@ -6285,15 +5981,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D1.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "1046"
+            "value": "FF D1.ogg"
           }
         }
       ]
@@ -6339,7 +6027,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E1.ogg"
+            "value": "FF E1.ogg"
           }
         }
       ]
@@ -6385,7 +6073,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F1.ogg"
+            "value": "FF F1.ogg"
           }
         }
       ]
@@ -6431,7 +6119,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G1.ogg"
+            "value": "FF G1.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "100"
           }
         }
       ]
@@ -6477,7 +6173,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A1.ogg"
+            "value": "FF A1.ogg"
           }
         }
       ]
@@ -6523,7 +6219,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B1.ogg"
+            "value": "FF B1.ogg"
           }
         }
       ]
@@ -6569,7 +6265,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C2.ogg"
+            "value": "FF C2.ogg"
           }
         }
       ]
@@ -6615,7 +6311,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D2.ogg"
+            "value": "FF D2.ogg"
           }
         }
       ]
@@ -6661,7 +6357,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E2.ogg"
+            "value": "FF E2.ogg"
           }
         }
       ]
@@ -6707,7 +6403,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F2.ogg"
+            "value": "FF F2.ogg"
           }
         }
       ]
@@ -6753,7 +6449,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G2.ogg"
+            "value": "FF G2.ogg"
           }
         }
       ]
@@ -6799,7 +6495,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G#2.ogg"
+            "value": "FF G#2.ogg"
           }
         }
       ]
@@ -6845,7 +6541,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A2.ogg"
+            "value": "FF A2.ogg"
           }
         }
       ]
@@ -6891,7 +6587,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A#2.ogg"
+            "value": "FF A#2.ogg"
           }
         }
       ]
@@ -6937,7 +6633,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B2.ogg"
+            "value": "FF B2.ogg"
           }
         }
       ]
@@ -6983,7 +6679,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C3.ogg"
+            "value": "FF C3.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "325"
           }
         }
       ]
@@ -7029,7 +6733,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D3.ogg"
+            "value": "FF D3.ogg"
           }
         }
       ]
@@ -7075,7 +6779,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E3.ogg"
+            "value": "FF E3.ogg"
           }
         }
       ]
@@ -7121,7 +6825,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F3.ogg"
+            "value": "FF F3.ogg"
           }
         }
       ]
@@ -7167,7 +6871,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G3.ogg"
+            "value": "FF G3.ogg"
           }
         }
       ]
@@ -7213,7 +6917,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A3.ogg"
+            "value": "FF A3.ogg"
           }
         }
       ]
@@ -7259,7 +6963,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B3.ogg"
+            "value": "FF B3.ogg"
           }
         }
       ]
@@ -7305,7 +7009,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C4.ogg"
+            "value": "FF C4.ogg"
           }
         }
       ]
@@ -7351,7 +7055,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D4.ogg"
+            "value": "FF D4.ogg"
           }
         }
       ]
@@ -7397,7 +7101,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E4.ogg"
+            "value": "FF E4.ogg"
           }
         }
       ]
@@ -7443,7 +7147,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F4.ogg"
+            "value": "FF F4.ogg"
           }
         }
       ]
@@ -7489,7 +7193,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G4.ogg"
+            "value": "FF G4.ogg"
           }
         }
       ]
@@ -7535,7 +7239,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G#4.ogg"
+            "value": "FF G#4.ogg"
           }
         }
       ]
@@ -7581,7 +7285,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A4.ogg"
+            "value": "FF A4.ogg"
           }
         }
       ]
@@ -7627,7 +7331,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A#4.ogg"
+            "value": "FF A#4.ogg"
           }
         }
       ]
@@ -7673,7 +7377,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B4.ogg"
+            "value": "FF B4.ogg"
           }
         }
       ]
@@ -7719,7 +7423,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.1"
+            "value": "0.2"
           }
         },
         {
@@ -7727,7 +7431,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C#5.ogg"
+            "value": "FF C#5.ogg"
           }
         }
       ]
@@ -7757,7 +7461,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "086"
+            "value": "087"
           }
         },
         {
@@ -7773,7 +7477,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.2"
+            "value": "0.4"
           }
         },
         {
@@ -7781,7 +7485,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D5.ogg"
+            "value": "FF D5.ogg"
           }
         }
       ]
@@ -7803,7 +7507,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -7811,7 +7515,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -7819,7 +7523,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -7827,7 +7531,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.3"
+            "value": "0.5"
           }
         },
         {
@@ -7835,7 +7539,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D#5.ogg"
+            "value": "FF E5.ogg"
           }
         }
       ]
@@ -7857,7 +7561,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "088"
+            "value": "089"
           }
         },
         {
@@ -7865,7 +7569,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "089"
+            "value": "090"
           }
         },
         {
@@ -7881,7 +7585,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.4"
+            "value": "0.6"
           }
         },
         {
@@ -7889,7 +7593,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F5.ogg"
+            "value": "FF F5.ogg"
           }
         }
       ]
@@ -7911,7 +7615,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "090"
+            "value": "091"
           }
         },
         {
@@ -7919,7 +7623,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "090"
+            "value": "092"
           }
         },
         {
@@ -7927,7 +7631,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "090"
+            "value": "091"
           }
         },
         {
@@ -7935,7 +7639,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.6"
+            "value": "10"
           }
         },
         {
@@ -7943,15 +7647,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F#5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-40"
+            "value": "FF G5.ogg"
           }
         }
       ]
@@ -7973,7 +7669,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "091"
+            "value": "093"
           }
         },
         {
@@ -7981,7 +7677,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "091"
+            "value": "094"
           }
         },
         {
@@ -7989,7 +7685,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "091"
+            "value": "093"
           }
         },
         {
@@ -8005,23 +7701,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-30"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "135"
+            "value": "FF A5.ogg"
           }
         }
       ]
@@ -8043,7 +7723,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "092"
+            "value": "095"
           }
         },
         {
@@ -8051,7 +7731,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "092"
+            "value": "095"
           }
         },
         {
@@ -8059,7 +7739,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "092"
+            "value": "095"
           }
         },
         {
@@ -8075,15 +7755,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G#5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-30"
+            "value": "Mf B5.ogg"
           }
         }
       ]
@@ -8105,7 +7777,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "093"
+            "value": "096"
           }
         },
         {
@@ -8113,7 +7785,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "093"
+            "value": "097"
           }
         },
         {
@@ -8121,7 +7793,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "093"
+            "value": "096"
           }
         },
         {
@@ -8137,15 +7809,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-45"
+            "value": "Mf C6.ogg"
           }
         }
       ]
@@ -8167,7 +7831,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "094"
+            "value": "098"
           }
         },
         {
@@ -8175,7 +7839,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "094"
+            "value": "098"
           }
         },
         {
@@ -8183,7 +7847,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "094"
+            "value": "097"
           }
         },
         {
@@ -8199,15 +7863,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP A#5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pan",
-            "value": "-45"
+            "value": "Mf C#6.ogg"
           }
         }
       ]
@@ -8229,7 +7885,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "095"
+            "value": "099"
           }
         },
         {
@@ -8237,7 +7893,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "095"
+            "value": "099"
           }
         },
         {
@@ -8245,7 +7901,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "095"
+            "value": "098"
           }
         },
         {
@@ -8261,15 +7917,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP B5.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "324"
+            "value": "Mf D6.ogg"
           }
         }
       ]
@@ -8291,7 +7939,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "096"
+            "value": "100"
           }
         },
         {
@@ -8299,7 +7947,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "096"
+            "value": "100"
           }
         },
         {
@@ -8307,7 +7955,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "096"
+            "value": "099"
           }
         },
         {
@@ -8323,15 +7971,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C6.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "57"
+            "value": "Mf D#6.ogg"
           }
         }
       ]
@@ -8353,7 +7993,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "097"
+            "value": "101"
           }
         },
         {
@@ -8361,7 +8001,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "097"
+            "value": "101"
           }
         },
         {
@@ -8369,7 +8009,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "097"
+            "value": "100"
           }
         },
         {
@@ -8385,15 +8025,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C#6.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "265"
+            "value": "Mf E6.ogg"
           }
         }
       ]
@@ -8415,7 +8047,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "098"
+            "value": "102"
           }
         },
         {
@@ -8423,7 +8055,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "098"
+            "value": "102"
           }
         },
         {
@@ -8431,7 +8063,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "098"
+            "value": "102"
           }
         },
         {
@@ -8447,7 +8079,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D6.ogg"
+            "value": "Mf F#6.ogg"
           }
         }
       ]
@@ -8469,7 +8101,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "099"
+            "value": "103"
           }
         },
         {
@@ -8477,7 +8109,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "099"
+            "value": "103"
           }
         },
         {
@@ -8485,7 +8117,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "099"
+            "value": "103"
           }
         },
         {
@@ -8501,7 +8133,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP D#6.ogg"
+            "value": "Mf G6.ogg"
           }
         }
       ]
@@ -8523,7 +8155,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "100"
+            "value": "104"
           }
         },
         {
@@ -8531,7 +8163,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "100"
+            "value": "104"
           }
         },
         {
@@ -8539,7 +8171,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "100"
+            "value": "104"
           }
         },
         {
@@ -8555,7 +8187,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E6.ogg"
+            "value": "Mf G#6.ogg"
           }
         }
       ]
@@ -8577,7 +8209,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "101"
+            "value": "105"
           }
         },
         {
@@ -8585,7 +8217,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "101"
+            "value": "105"
           }
         },
         {
@@ -8593,7 +8225,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "101"
+            "value": "105"
           }
         },
         {
@@ -8609,7 +8241,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F6.ogg"
+            "value": "Mf A6.ogg"
           }
         }
       ]
@@ -8631,7 +8263,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "102"
+            "value": "106"
           }
         },
         {
@@ -8639,7 +8271,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "102"
+            "value": "106"
           }
         },
         {
@@ -8647,7 +8279,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "102"
+            "value": "106"
           }
         },
         {
@@ -8663,7 +8295,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP F#6.ogg"
+            "value": "Mf A#6.ogg"
           }
         }
       ]
@@ -8685,7 +8317,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "103"
+            "value": "107"
           }
         },
         {
@@ -8693,7 +8325,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "103"
+            "value": "107"
           }
         },
         {
@@ -8701,7 +8333,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "103"
+            "value": "107"
           }
         },
         {
@@ -8717,7 +8349,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP G6.ogg"
+            "value": "Mf B6.ogg"
           }
         }
       ]
@@ -8739,230 +8371,6 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP G#6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "58"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP A6.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "146"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "59"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP A#6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "60"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP B6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "61"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
             "value": "108"
           }
         },
@@ -8995,7 +8403,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C7.ogg"
+            "value": "Mf C7.ogg"
           }
         }
       ]
@@ -9087,7 +8495,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp B-1.ogg"
+            "value": "FF B-1.ogg"
           }
         }
       ]
@@ -9141,7 +8549,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D#0.ogg"
+            "value": "FF D#0.ogg"
           }
         }
       ]
@@ -9195,7 +8603,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F0.ogg"
+            "value": "FF F0.ogg"
           }
         }
       ]
@@ -9249,7 +8657,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G0.ogg"
+            "value": "FF G0.ogg"
           }
         }
       ]
@@ -9303,7 +8711,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A0.ogg"
+            "value": "FF A0.ogg"
           }
         }
       ]
@@ -9357,7 +8765,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp B0.ogg"
+            "value": "FF B0.ogg"
           }
         }
       ]
@@ -9403,7 +8811,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp C#1.ogg"
+            "value": "FF C#1.ogg"
           }
         }
       ]
@@ -9449,7 +8857,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D1.ogg"
+            "value": "FF D1.ogg"
           }
         }
       ]
@@ -9495,7 +8903,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp E1.ogg"
+            "value": "FF E1.ogg"
           }
         }
       ]
@@ -9541,7 +8949,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F1.ogg"
+            "value": "FF F1.ogg"
           }
         }
       ]
@@ -9587,7 +8995,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G1.ogg"
+            "value": "FF G1.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "100"
           }
         }
       ]
@@ -9633,7 +9049,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A1.ogg"
+            "value": "FF A1.ogg"
           }
         }
       ]
@@ -9679,7 +9095,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp B1.ogg"
+            "value": "FF B1.ogg"
           }
         }
       ]
@@ -9725,7 +9141,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp C2.ogg"
+            "value": "FF C2.ogg"
           }
         }
       ]
@@ -9771,7 +9187,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D2.ogg"
+            "value": "FF D2.ogg"
           }
         }
       ]
@@ -9817,7 +9233,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp E2.ogg"
+            "value": "FF E2.ogg"
           }
         }
       ]
@@ -9863,7 +9279,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F2.ogg"
+            "value": "FF F2.ogg"
           }
         }
       ]
@@ -9909,7 +9325,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G2.ogg"
+            "value": "FF G2.ogg"
           }
         }
       ]
@@ -9955,7 +9371,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G#2.ogg"
+            "value": "FF G#2.ogg"
           }
         }
       ]
@@ -10001,7 +9417,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A2.ogg"
+            "value": "FF A2.ogg"
           }
         }
       ]
@@ -10047,7 +9463,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A#2.ogg"
+            "value": "FF A#2.ogg"
           }
         }
       ]
@@ -10093,7 +9509,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp B2.ogg"
+            "value": "FF B2.ogg"
           }
         }
       ]
@@ -10139,7 +9555,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp C3.ogg"
+            "value": "FF C3.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "325"
           }
         }
       ]
@@ -10185,15 +9609,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D3.ogg"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "offset",
-            "value": "11"
+            "value": "FF D3.ogg"
           }
         }
       ]
@@ -10239,7 +9655,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp E3.ogg"
+            "value": "FF E3.ogg"
           }
         }
       ]
@@ -10285,7 +9701,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F3.ogg"
+            "value": "FF F3.ogg"
           }
         }
       ]
@@ -10331,7 +9747,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G3.ogg"
+            "value": "FF G3.ogg"
           }
         }
       ]
@@ -10377,7 +9793,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A3.ogg"
+            "value": "FF A3.ogg"
           }
         }
       ]
@@ -10423,7 +9839,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp B3.ogg"
+            "value": "FF B3.ogg"
           }
         }
       ]
@@ -10469,7 +9885,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp C4.ogg"
+            "value": "FF C4.ogg"
           }
         }
       ]
@@ -10515,7 +9931,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D4.ogg"
+            "value": "FF D4.ogg"
           }
         }
       ]
@@ -10561,7 +9977,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp E4.ogg"
+            "value": "FF E4.ogg"
           }
         }
       ]
@@ -10607,7 +10023,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F4.ogg"
+            "value": "FF F4.ogg"
           }
         }
       ]
@@ -10653,7 +10069,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G4.ogg"
+            "value": "FF G4.ogg"
           }
         }
       ]
@@ -10699,7 +10115,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G#4.ogg"
+            "value": "FF G#4.ogg"
           }
         }
       ]
@@ -10745,7 +10161,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A4.ogg"
+            "value": "FF A4.ogg"
           }
         }
       ]
@@ -10791,7 +10207,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A#4.ogg"
+            "value": "FF A#4.ogg"
           }
         }
       ]
@@ -10837,7 +10253,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp B4.ogg"
+            "value": "FF B4.ogg"
           }
         }
       ]
@@ -10883,7 +10299,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.1"
+            "value": "0.2"
           }
         },
         {
@@ -10891,7 +10307,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp C#5.ogg"
+            "value": "FF C#5.ogg"
           }
         }
       ]
@@ -10921,7 +10337,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "086"
+            "value": "087"
           }
         },
         {
@@ -10937,7 +10353,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.2"
+            "value": "0.4"
           }
         },
         {
@@ -10945,7 +10361,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D5.ogg"
+            "value": "FF D5.ogg"
           }
         }
       ]
@@ -10967,7 +10383,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -10975,7 +10391,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -10983,7 +10399,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -10991,7 +10407,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.3"
+            "value": "0.5"
           }
         },
         {
@@ -10999,7 +10415,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D#5.ogg"
+            "value": "FF E5.ogg"
           }
         }
       ]
@@ -11021,7 +10437,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "088"
+            "value": "089"
           }
         },
         {
@@ -11029,7 +10445,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "088"
+            "value": "090"
           }
         },
         {
@@ -11037,7 +10453,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "088"
+            "value": "089"
           }
         },
         {
@@ -11045,7 +10461,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.4"
+            "value": "0.6"
           }
         },
         {
@@ -11053,7 +10469,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp E5.ogg"
+            "value": "FF F5.ogg"
           }
         }
       ]
@@ -11075,7 +10491,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "089"
+            "value": "091"
           }
         },
         {
@@ -11083,7 +10499,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "089"
+            "value": "092"
           }
         },
         {
@@ -11091,7 +10507,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "089"
+            "value": "091"
           }
         },
         {
@@ -11099,7 +10515,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.5"
+            "value": "10"
           }
         },
         {
@@ -11107,7 +10523,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F5.ogg"
+            "value": "FF G5.ogg"
           }
         }
       ]
@@ -11129,7 +10545,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "090"
+            "value": "093"
           }
         },
         {
@@ -11137,7 +10553,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "090"
+            "value": "094"
           }
         },
         {
@@ -11145,7 +10561,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "090"
+            "value": "093"
           }
         },
         {
@@ -11153,7 +10569,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.6"
+            "value": "10"
           }
         },
         {
@@ -11161,7 +10577,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F#5.ogg"
+            "value": "FF A5.ogg"
           }
         }
       ]
@@ -11183,7 +10599,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "091"
+            "value": "095"
           }
         },
         {
@@ -11191,7 +10607,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "091"
+            "value": "095"
           }
         },
         {
@@ -11199,7 +10615,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "091"
+            "value": "095"
           }
         },
         {
@@ -11215,7 +10631,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G5.ogg"
+            "value": "Mf B5.ogg"
           }
         }
       ]
@@ -11237,7 +10653,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "092"
+            "value": "096"
           }
         },
         {
@@ -11245,7 +10661,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "092"
+            "value": "097"
           }
         },
         {
@@ -11253,7 +10669,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "092"
+            "value": "096"
           }
         },
         {
@@ -11269,7 +10685,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp G#5.ogg"
+            "value": "Mf C6.ogg"
           }
         }
       ]
@@ -11291,7 +10707,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "093"
+            "value": "098"
           }
         },
         {
@@ -11299,7 +10715,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "093"
+            "value": "098"
           }
         },
         {
@@ -11307,7 +10723,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "093"
+            "value": "097"
           }
         },
         {
@@ -11323,7 +10739,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A5.ogg"
+            "value": "Mf C#6.ogg"
           }
         }
       ]
@@ -11345,7 +10761,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "094"
+            "value": "099"
           }
         },
         {
@@ -11353,7 +10769,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "094"
+            "value": "099"
           }
         },
         {
@@ -11361,7 +10777,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "094"
+            "value": "098"
           }
         },
         {
@@ -11377,7 +10793,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp A#5.ogg"
+            "value": "Mf D6.ogg"
           }
         }
       ]
@@ -11399,7 +10815,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "095"
+            "value": "100"
           }
         },
         {
@@ -11407,7 +10823,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "095"
+            "value": "100"
           }
         },
         {
@@ -11415,7 +10831,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "095"
+            "value": "099"
           }
         },
         {
@@ -11431,7 +10847,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp B5.ogg"
+            "value": "Mf D#6.ogg"
           }
         }
       ]
@@ -11453,7 +10869,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "096"
+            "value": "101"
           }
         },
         {
@@ -11461,7 +10877,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "096"
+            "value": "101"
           }
         },
         {
@@ -11469,7 +10885,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "096"
+            "value": "100"
           }
         },
         {
@@ -11485,7 +10901,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp C6.ogg"
+            "value": "Mf E6.ogg"
           }
         }
       ]
@@ -11507,7 +10923,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "097"
+            "value": "102"
           }
         },
         {
@@ -11515,7 +10931,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "097"
+            "value": "102"
           }
         },
         {
@@ -11523,7 +10939,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "097"
+            "value": "102"
           }
         },
         {
@@ -11539,7 +10955,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp C#6.ogg"
+            "value": "Mf F#6.ogg"
           }
         }
       ]
@@ -11561,7 +10977,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "098"
+            "value": "103"
           }
         },
         {
@@ -11569,7 +10985,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "098"
+            "value": "103"
           }
         },
         {
@@ -11577,7 +10993,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "098"
+            "value": "103"
           }
         },
         {
@@ -11593,7 +11009,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D6.ogg"
+            "value": "Mf G6.ogg"
           }
         }
       ]
@@ -11615,7 +11031,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "099"
+            "value": "104"
           }
         },
         {
@@ -11623,7 +11039,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "099"
+            "value": "104"
           }
         },
         {
@@ -11631,7 +11047,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "099"
+            "value": "104"
           }
         },
         {
@@ -11647,7 +11063,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp D#6.ogg"
+            "value": "Mf G#6.ogg"
           }
         }
       ]
@@ -11669,7 +11085,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "100"
+            "value": "105"
           }
         },
         {
@@ -11677,7 +11093,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "100"
+            "value": "105"
           }
         },
         {
@@ -11685,7 +11101,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "100"
+            "value": "105"
           }
         },
         {
@@ -11701,7 +11117,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP E6.ogg"
+            "value": "Mf A6.ogg"
           }
         }
       ]
@@ -11723,7 +11139,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "101"
+            "value": "106"
           }
         },
         {
@@ -11731,7 +11147,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "101"
+            "value": "106"
           }
         },
         {
@@ -11739,7 +11155,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "101"
+            "value": "106"
           }
         },
         {
@@ -11755,7 +11171,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F6.ogg"
+            "value": "Mf A#6.ogg"
           }
         }
       ]
@@ -11777,7 +11193,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "102"
+            "value": "107"
           }
         },
         {
@@ -11785,7 +11201,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "102"
+            "value": "107"
           }
         },
         {
@@ -11793,7 +11209,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "102"
+            "value": "107"
           }
         },
         {
@@ -11809,7 +11225,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mp F#6.ogg"
+            "value": "Mf B6.ogg"
           }
         }
       ]
@@ -11831,276 +11247,6 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "103"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "103"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "103"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mp G6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "58"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "104"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mp G#6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "59"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "105"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mp A6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "60"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "106"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mp A#6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "61"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "107"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "PP B6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "62"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
             "value": "108"
           }
         },
@@ -12133,7 +11279,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "PP C7.ogg"
+            "value": "Mf C7.ogg"
           }
         }
       ]
@@ -12225,7 +11371,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf B-1.ogg"
+            "value": "FF B-1.ogg"
           }
         }
       ]
@@ -12279,7 +11425,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf D#0.ogg"
+            "value": "FF D#0.ogg"
           }
         }
       ]
@@ -12333,7 +11479,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf F0.ogg"
+            "value": "FF F0.ogg"
           }
         }
       ]
@@ -12387,7 +11533,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf G0.ogg"
+            "value": "FF G0.ogg"
           }
         }
       ]
@@ -12441,7 +11587,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf A0.ogg"
+            "value": "FF A0.ogg"
           }
         }
       ]
@@ -12495,7 +11641,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf B0.ogg"
+            "value": "FF B0.ogg"
           }
         }
       ]
@@ -12541,7 +11687,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF C#1.ogg"
+            "value": "FF C#1.ogg"
           }
         }
       ]
@@ -12587,7 +11733,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF D1.ogg"
+            "value": "FF D1.ogg"
           }
         }
       ]
@@ -12633,7 +11779,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF E1.ogg"
+            "value": "FF E1.ogg"
           }
         }
       ]
@@ -12679,7 +11825,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF F1.ogg"
+            "value": "FF F1.ogg"
           }
         }
       ]
@@ -12725,7 +11871,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF G1.ogg"
+            "value": "FF G1.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "100"
           }
         }
       ]
@@ -12771,7 +11925,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF A1.ogg"
+            "value": "FF A1.ogg"
           }
         }
       ]
@@ -12817,7 +11971,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF B1.ogg"
+            "value": "FF B1.ogg"
           }
         }
       ]
@@ -12863,7 +12017,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF C2.ogg"
+            "value": "FF C2.ogg"
           }
         }
       ]
@@ -12909,7 +12063,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF D2.ogg"
+            "value": "FF D2.ogg"
           }
         }
       ]
@@ -12955,7 +12109,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF E2.ogg"
+            "value": "FF E2.ogg"
           }
         }
       ]
@@ -13001,7 +12155,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF F2.ogg"
+            "value": "FF F2.ogg"
           }
         }
       ]
@@ -13047,7 +12201,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF G2.ogg"
+            "value": "FF G2.ogg"
           }
         }
       ]
@@ -13093,7 +12247,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF G#2.ogg"
+            "value": "FF G#2.ogg"
           }
         }
       ]
@@ -13139,7 +12293,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF A2.ogg"
+            "value": "FF A2.ogg"
           }
         }
       ]
@@ -13185,7 +12339,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF A#2.ogg"
+            "value": "FF A#2.ogg"
           }
         }
       ]
@@ -13231,7 +12385,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF B2.ogg"
+            "value": "FF B2.ogg"
           }
         }
       ]
@@ -13277,7 +12431,15 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF C3.ogg"
+            "value": "FF C3.ogg"
+          }
+        },
+        {
+          "type": "element",
+          "name": "opcode",
+          "attributes": {
+            "name": "offset",
+            "value": "325"
           }
         }
       ]
@@ -13323,7 +12485,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF D3.ogg"
+            "value": "FF D3.ogg"
           }
         }
       ]
@@ -13369,7 +12531,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF E3.ogg"
+            "value": "FF E3.ogg"
           }
         }
       ]
@@ -13415,7 +12577,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF F3.ogg"
+            "value": "FF F3.ogg"
           }
         }
       ]
@@ -13461,7 +12623,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF G3.ogg"
+            "value": "FF G3.ogg"
           }
         }
       ]
@@ -13507,7 +12669,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF A3.ogg"
+            "value": "FF A3.ogg"
           }
         }
       ]
@@ -13553,7 +12715,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF B3.ogg"
+            "value": "FF B3.ogg"
           }
         }
       ]
@@ -13599,7 +12761,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "MF C4.ogg"
+            "value": "FF C4.ogg"
           }
         }
       ]
@@ -13645,7 +12807,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf D4.ogg"
+            "value": "FF D4.ogg"
           }
         }
       ]
@@ -13691,7 +12853,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf E4.ogg"
+            "value": "FF E4.ogg"
           }
         }
       ]
@@ -13737,7 +12899,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf F4.ogg"
+            "value": "FF F4.ogg"
           }
         }
       ]
@@ -13783,7 +12945,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf G4.ogg"
+            "value": "FF G4.ogg"
           }
         }
       ]
@@ -13829,7 +12991,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf G#4.ogg"
+            "value": "FF G#4.ogg"
           }
         }
       ]
@@ -13875,7 +13037,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf A4.ogg"
+            "value": "FF A4.ogg"
           }
         }
       ]
@@ -13921,7 +13083,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf A#4.ogg"
+            "value": "FF A#4.ogg"
           }
         }
       ]
@@ -13967,7 +13129,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf B4.ogg"
+            "value": "FF B4.ogg"
           }
         }
       ]
@@ -14013,7 +13175,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.1"
+            "value": "0.2"
           }
         },
         {
@@ -14021,7 +13183,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf C#5.ogg"
+            "value": "FF C#5.ogg"
           }
         }
       ]
@@ -14051,7 +13213,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "086"
+            "value": "087"
           }
         },
         {
@@ -14067,7 +13229,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.2"
+            "value": "0.4"
           }
         },
         {
@@ -14075,7 +13237,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf D5.ogg"
+            "value": "FF D5.ogg"
           }
         }
       ]
@@ -14097,7 +13259,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -14105,7 +13267,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -14113,7 +13275,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "087"
+            "value": "088"
           }
         },
         {
@@ -14121,7 +13283,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.3"
+            "value": "0.5"
           }
         },
         {
@@ -14129,7 +13291,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf D#5.ogg"
+            "value": "FF E5.ogg"
           }
         }
       ]
@@ -14151,7 +13313,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "088"
+            "value": "089"
           }
         },
         {
@@ -14159,7 +13321,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "088"
+            "value": "090"
           }
         },
         {
@@ -14167,7 +13329,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "088"
+            "value": "089"
           }
         },
         {
@@ -14175,7 +13337,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.4"
+            "value": "0.6"
           }
         },
         {
@@ -14183,7 +13345,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf E5.ogg"
+            "value": "FF F5.ogg"
           }
         }
       ]
@@ -14205,7 +13367,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "089"
+            "value": "091"
           }
         },
         {
@@ -14213,7 +13375,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "089"
+            "value": "092"
           }
         },
         {
@@ -14221,7 +13383,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "089"
+            "value": "091"
           }
         },
         {
@@ -14229,7 +13391,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.5"
+            "value": "10"
           }
         },
         {
@@ -14237,7 +13399,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf F5.ogg"
+            "value": "FF G5.ogg"
           }
         }
       ]
@@ -14259,7 +13421,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "090"
+            "value": "093"
           }
         },
         {
@@ -14267,7 +13429,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "090"
+            "value": "094"
           }
         },
         {
@@ -14275,7 +13437,7 @@
           "name": "opcode",
           "attributes": {
             "name": "pitch_keycenter",
-            "value": "090"
+            "value": "093"
           }
         },
         {
@@ -14283,7 +13445,7 @@
           "name": "opcode",
           "attributes": {
             "name": "ampeg_release",
-            "value": "0.6"
+            "value": "10"
           }
         },
         {
@@ -14291,7 +13453,7 @@
           "name": "opcode",
           "attributes": {
             "name": "sample",
-            "value": "Mf F#5.ogg"
+            "value": "FF A5.ogg"
           }
         }
       ]
@@ -14306,222 +13468,6 @@
           "attributes": {
             "name": "region_label",
             "value": "45"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "091"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "091"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "091"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mf G5.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "46"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "092"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "092"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "092"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mf G#5.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "47"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "093"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "093"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "093"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mf A5.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "48"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "094"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "094"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "094"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mf A#5.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "49"
           }
         },
         {
@@ -14575,7 +13521,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "50"
+            "value": "46"
           }
         },
         {
@@ -14591,7 +13537,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "096"
+            "value": "097"
           }
         },
         {
@@ -14629,7 +13575,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "51"
+            "value": "47"
           }
         },
         {
@@ -14637,7 +13583,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "097"
+            "value": "098"
           }
         },
         {
@@ -14645,7 +13591,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "097"
+            "value": "098"
           }
         },
         {
@@ -14683,7 +13629,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "52"
+            "value": "48"
           }
         },
         {
@@ -14691,7 +13637,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "098"
+            "value": "099"
           }
         },
         {
@@ -14699,7 +13645,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "098"
+            "value": "099"
           }
         },
         {
@@ -14737,7 +13683,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "53"
+            "value": "49"
           }
         },
         {
@@ -14745,7 +13691,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "099"
+            "value": "100"
           }
         },
         {
@@ -14753,7 +13699,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "099"
+            "value": "100"
           }
         },
         {
@@ -14791,7 +13737,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "54"
+            "value": "50"
           }
         },
         {
@@ -14799,7 +13745,7 @@
           "name": "opcode",
           "attributes": {
             "name": "lokey",
-            "value": "100"
+            "value": "101"
           }
         },
         {
@@ -14807,7 +13753,7 @@
           "name": "opcode",
           "attributes": {
             "name": "hikey",
-            "value": "100"
+            "value": "101"
           }
         },
         {
@@ -14845,61 +13791,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "55"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "lokey",
-            "value": "101"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "hikey",
-            "value": "101"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "pitch_keycenter",
-            "value": "101"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "ampeg_release",
-            "value": "10"
-          }
-        },
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "sample",
-            "value": "Mf F6.ogg"
-          }
-        }
-      ]
-    },
-    {
-      "type": "element",
-      "name": "region",
-      "elements": [
-        {
-          "type": "element",
-          "name": "opcode",
-          "attributes": {
-            "name": "region_label",
-            "value": "56"
+            "value": "51"
           }
         },
         {
@@ -14953,7 +13845,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "57"
+            "value": "52"
           }
         },
         {
@@ -15007,7 +13899,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "58"
+            "value": "53"
           }
         },
         {
@@ -15061,7 +13953,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "59"
+            "value": "54"
           }
         },
         {
@@ -15115,7 +14007,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "60"
+            "value": "55"
           }
         },
         {
@@ -15169,7 +14061,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "61"
+            "value": "56"
           }
         },
         {
@@ -15223,7 +14115,7 @@
           "name": "opcode",
           "attributes": {
             "name": "region_label",
-            "value": "62"
+            "value": "57"
           }
         },
         {
